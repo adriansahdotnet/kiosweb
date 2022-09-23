@@ -20,9 +20,8 @@ export default function Home() {
       <Header />
       <HeroArea />
       <CategoryArea />
-      <TrendingLandmark />
-      <Subscribe />
       <Products />
+      <Subscribe />
       <Cta />
       <BrandArea />
       <Testimonial />
