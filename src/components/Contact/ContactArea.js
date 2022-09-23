@@ -18,6 +18,13 @@ const ContactArea = () => {
                         <h2 className="page__title-2">Tinggalkan kami pesan.</h2>
                         <p>Punya pertanyaan, kritik atau saran bisa disampaikan pada form dibawah.</p>
                      </div>
+                     <div className="row">
+                        <div class="col-xxl-7 col-xl-7">
+                           <div class="alert alert-danger" role="alert">
+                              Kontak kami hanya <a href="https://wa.me/6285293026542" class="alert-link">+62 852 9302 6542</a>. Produk Original hanya ada di Kiosweb.
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </div>
                <div className="row">
@@ -67,7 +74,7 @@ const ContactArea = () => {
                   </div>
                   <div className="col-xxl-5 col-xl-5">
                      <div className="contact__map">
-                           <iframe src="https://www.go/maps/embed?pb=!1m14!1m8!1m3!1d15835.109262015088!2d108.812216!3d-7.151727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd75e3df6a48b32d!2sRenaldi%20Adriansah!5e0!3m2!1sid!2sid!4v1663838589228!5m2!1sid!2sid"></iframe>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63379.39355300873!2d108.97218138147316!3d-6.865167816916582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb07a026ad8e5%3A0x3bbf7998f0ec2ea!2sBrebes%2C%20Kec.%20Brebes%2C%20Kabupaten%20Brebes%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1663950949283!5m2!1sid!2sid"></iframe>
                      </div>
                   </div>
                </div>
