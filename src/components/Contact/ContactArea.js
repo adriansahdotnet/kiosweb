@@ -18,13 +18,6 @@ const ContactArea = () => {
                         <h2 className="page__title-2">Tinggalkan kami pesan.</h2>
                         <p>Punya pertanyaan, kritik atau saran bisa disampaikan pada form dibawah.</p>
                      </div>
-                     <div className="row">
-                        <div class="col-xxl-7 col-xl-7">
-                           <div class="alert alert-danger" role="alert">
-                              Kontak kami hanya <a href="https://wa.me/6285293026542" class="alert-link">+62 852 9302 6542</a>. Produk Original hanya ada di Kiosweb.
-                           </div>
-                        </div>
-                     </div>
                   </div>
                </div>
                <div className="row">
