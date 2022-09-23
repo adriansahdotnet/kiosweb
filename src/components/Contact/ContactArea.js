@@ -67,7 +67,7 @@ const ContactArea = () => {
                   </div>
                   <div className="col-xxl-5 col-xl-5">
                      <div className="contact__map">
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15835.109262015088!2d108.812216!3d-7.151727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd75e3df6a48b32d!2sRenaldi%20Adriansah!5e0!3m2!1sid!2sid!4v1663838589228!5m2!1sid!2sid"></iframe>
+                           <iframe src="https://www.go/maps/embed?pb=!1m14!1m8!1m3!1d15835.109262015088!2d108.812216!3d-7.151727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd75e3df6a48b32d!2sRenaldi%20Adriansah!5e0!3m2!1sid!2sid!4v1663838589228!5m2!1sid!2sid"></iframe>
                      </div>
                   </div>
                </div>
