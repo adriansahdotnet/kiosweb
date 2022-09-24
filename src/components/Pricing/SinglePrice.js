@@ -11,7 +11,7 @@ const SinglePrice = ({ title, price, activeClass = '' }) => {
                         <p>What You Are Looking For!</p>
                     </div>
                     <div className="pricing__tag d-flex align-items-start justify-content-center mb-30">
-                        <span>$</span>
+                        <span>Rp.</span>
                         <h4>{price}</h4>
                     </div>
                     <div className="pricing__switch mb-10">
@@ -19,7 +19,7 @@ const SinglePrice = ({ title, price, activeClass = '' }) => {
                     </div>
                     <div className="pricing__buy mb-20">
                         <Link href="/pricing">
-                            <a className="m-btn m-btn-border m-btn-border-5 w-100"> <span></span> Buy Now</a>
+                            <a className="m-btn m-btn-border m-btn-border-5 w-100"> <span></span> Beli Sekarang</a>
                         </Link>
                     </div>
                     <div className="pricing__features text-start">

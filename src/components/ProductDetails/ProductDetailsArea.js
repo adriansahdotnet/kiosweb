@@ -187,50 +187,21 @@ const ProductDetailsArea = () => {
                         <div className="product__proprietor-head mb-25">
                            <div className="product__prorietor-info mb-20 d-flex justify-content-between">
                               <div className="product__proprietor-avater d-flex align-items-center">
-                                 <div className="product__proprietor-thumb">
-                                    <img src="assets/img/product/proprietor/proprietor-1.jpg" alt="" />
-                                 </div>
                                  <div className="product__proprietor-name">
-                                    <h5><a href="#">Justin Case</a></h5>
-                                    <a href="#">View Profile</a>
+                                    <h5><a href="#">Harga</a></h5>
                                  </div>
                               </div>
                               <div className="product__proprietor-price">
-                                 <span className="d-flex align-items-start"><span>$</span>{product?.price}</span>
+                                 <span className="d-flex align-items-start"><span>Rp </span>{product?.price}</span>
                               </div>
-                           </div>
-                           <div className="product__proprietor-text">
-                              <p>Jeffrey arse over tit give us a bell old posh morish wellies cheeky.</p>
                            </div>
                         </div>
                         <div className="product__proprietor-body fix">
-                           <ul className="mb-10 fix">
-                              <li>
-                                 <h6>Downloads:</h6>
-                                 <span>44</span>
-                              </li>
-                              <li>
-                                 <h6>Released On:</h6>
-                                 <span>16 February 2021</span>
-                              </li>
-                              <li>
-                                 <h6>Version:</h6>
-                                 <span>1.0</span>
-                              </li>
-                              <li>
-                                 <h6>Compatibility:</h6>
-                                 <span>Elementor</span>
-                              </li>
-                              <li>
-                                 <h6>Framework:</h6>
-                                 <span>Redux:</span>
-                              </li>
-                           </ul>
                            <span >
-                              <a style={{cursor:'pointer'}} onClick={handleCartProduct} className="m-btn m-btn-2 w-100 mb-20"> <span></span> Add To Cart</a>
+                              <a style={{cursor:'pointer'}} href="https://wa.me/6285293026542" className="m-btn m-btn-2 w-100 mb-20"> <span></span> Buat Sekarang</a>
 
                            </span>
-                           <a href="https://themeforest.net/item/zibber-business-consulting-wordpress-theme/30120392" rel="noreferrer" target="_blank" className="m-btn m-btn-border w-100"> <span></span> Preview Project</a>
+                           <a href="https://wa.me/6285293026542" rel="noreferrer" target="_blank" className="m-btn m-btn-border w-100"> <span></span> Lihat Preview</a>
                         </div>
                      </div>
                      <div className="sidebar__banner" style={{ background: `url(assets/img/banner/sidebar-banner.jpg)`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>

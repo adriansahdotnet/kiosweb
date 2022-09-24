@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { useSelector } from 'react-redux';
+import productData from '../../data/productData';
 import SingleProduct from './SingleProduct';
 
 const Products = () => {
@@ -22,6 +23,12 @@ const Products = () => {
                   {
                      products.slice(9,15).map((product, index) => {
                         return <SingleProduct key={index} product={product} />
+                     })
+                  }
+
+                  {
+                     products.slice(1).map((product, index) => {
+                        return <productData key={index} product={productData} />
                      })
                   }
                   

@@ -64,8 +64,6 @@
 
         $email_content .= "Name: $name\n";
 
-        $email_content .= "Email: $email\n\n";
-
         $email_content .= "Subject: $subject\n\n";
 
         $email_content .= "Website: $website\n\n";

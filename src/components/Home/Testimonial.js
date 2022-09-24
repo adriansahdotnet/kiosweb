@@ -5,14 +5,14 @@ const Testimonial = () => {
 		{
 			id:1,
 			img:'assets/img/testimonial/testi-1.jpg',
-			name:'Risma',
+			name:'Ilman Aly',
 			title:'Pembisnis Online',
 			desc:'Tomfoolery chimney pot loo easy peasy twit he lost his bottle lavatory excuse my French up the duff cup of char bender fantastic arse.'
 		},
 		{
 			id:2,
 			img:'assets/img/testimonial/testi-2.jpg',
-			name:'Ilman Aly Hakim',
+			name:'Risma',
 			title:'Pengusaha Muda',
 			desc:'Loo crikey bubble and sque wind up zonked arg bargy pukka nancy boy grub bog no biggie he nicked it what a load of rubbish pear shaped.!'
 		},

@@ -4,22 +4,22 @@ const categoryData = [
    {
       id: 1,
       img: 'assets/img/icon/catagory/cat-1.png',
-      title: 'WordPress Themes'
+      title: 'Topup Games'
    },
    {
       id: 2,
       img: 'assets/img/icon/catagory/cat-2.png',
-      title: 'Site Templates'
+      title: 'Toko Online'
    },
    {
       id: 3,
       img: 'assets/img/icon/catagory/cat-3.png',
-      title: 'UI Templates'
+      title: 'Landing Page'
    },
    {
       id: 4,
       img: 'assets/img/icon/catagory/cat-4.png',
-      title: 'Digital Marketing'
+      title: 'Blog Pribadi'
    },
 ]
 
@@ -66,7 +66,7 @@ const CategoryArea = () => {
                   <div className="col-xxl-12">
                      <div className="category__more mt-30 text-center">
                         <Link href="/product">
-                           <a className="m-btn m-btn-2"> <span></span> View all categories</a>
+                           <a className="m-btn m-btn-2"> <span></span> Lihat Semua Kategori</a>
                         </Link>
                      </div>
                   </div>

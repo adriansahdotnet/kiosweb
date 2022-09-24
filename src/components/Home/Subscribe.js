@@ -22,7 +22,7 @@ const Subscribe = () => {
                               <input type="email" placeholder="Email Address" />
                               <button type="submit" className="m-btn m-btn-black"><span></span> subscribe </button>
                            </form>
-                           <p>Bergabung dengan 500+ pwlaku bisnis yang menggunakan jasa kios web.</p>
+                           <p>Bergabung dengan 500+ pelaku bisnis yang menggunakan jasa kios web.</p>
                         </div>
                      </div>
                   </div>

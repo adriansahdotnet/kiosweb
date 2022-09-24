@@ -16,7 +16,7 @@ const ProductTitle = () => {
                               <ol className="breadcrumb">
                                  <li className="breadcrumb-item"><Link href="/home"><a >Home</a></Link></li>
                                  <li className="breadcrumb-item"><Link href="/product"><a >Product</a></Link></li>
-                                 <li className="breadcrumb-item active" aria-current="page">Current</li>
+                                 <li className="breadcrumb-item active" aria-current="page">Jasa Web</li>
                               </ol>
                            </nav>
                      </div>

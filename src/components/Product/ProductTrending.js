@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { specificItem } from '../../redux/features/productSlice';
 
 const ProductTrending = () => {
-   const productTrending = useSelector(state => state.products.products);
+   const productTrending = useSelector(state => state.products);
    const dispatch = useDispatch();
    return (
       <>
@@ -48,7 +48,7 @@ const ProductTrending = () => {
                                     <Link href="/product-details">{product?.title}</Link>
                                  </h3>
                                  <div className="trending__author">
-                                    <p>by <a href="#">Themepure</a></p>
+                                    <p>by <a href="#">Kiosweb</a></p>
                                  </div>
                               </div>
                            </div>

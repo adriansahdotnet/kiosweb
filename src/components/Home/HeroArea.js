@@ -37,13 +37,13 @@ const HeroArea = () => {
                   <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                      <div className="hero__thumb-wrapper scene ml-70 p-relative">
                         <div className="hero__thumb one d-none d-lg-block">
-                           <img className="layer" data-depth="0.2" src="assets/img/hero/hero-1.jpg" alt=""/>
+                           <img className="layer" data-depth="0.2" src="assets/img/hero/hero-4.png" alt=""/>
                         </div>
                         <div className="hero__thumb two d-none d-md-block">
-                           <img className="layer" data-depth="0.3" src="assets/img/hero/hero-2.jpg" alt=""/>
+                           <img className="layer" data-depth="0.3" src="assets/img/hero/hero-5.jpg" alt=""/>
                         </div>
                         <div className="hero__thumb three d-none d-md-block">
-                           <img className="layer" data-depth="0.4" src="assets/img/hero/hero-3.jpg" alt=""/>
+                           <img className="layer" data-depth="0.4" src="assets/img/hero/hero-6.jpg" alt=""/>
                         </div>
                      </div>
                   </div>
