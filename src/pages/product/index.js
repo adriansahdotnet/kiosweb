@@ -183,7 +183,7 @@ const Product = () => {
                               <a href="#">{item?.category}</a>
                             </div>
                             <div className="product__price">
-                              <span>${item?.price}</span>
+                              <span>Rp {item?.price}</span>
                             </div>
                           </div>
                           <h3 onClick={() => handleProducDetails(item.id)} className="product__title">
@@ -191,7 +191,7 @@ const Product = () => {
                               <a >{item?.title}...</a>
                             </Link>
                           </h3>
-                          <p className="product__author">by <a href="#">Kiosweb</a> in <a href="#">Templates</a></p>
+                          <p className="product__author">by <a href="#">Kiosweb</a> in <a href="#">Jasa Website</a></p>
                         </div>
                       </div>
                     </div>
