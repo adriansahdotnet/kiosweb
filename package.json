@@ -1,6 +1,6 @@
 {
   "name": "Kios Web",
-  "homepage": "https://www.adriansah.net/",
+  "homepage": "index.html",
   "private": true,
   "scripts": {
     "dev": "next dev",

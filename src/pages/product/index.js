@@ -167,14 +167,6 @@ const Product = () => {
                             </Link>
                           </div>
                           <div className="product__thumb-btn transition-3">
-                        
-                              <a style={{cursor:'pointer'}} onClick={() => handleClick(item)} className="m-btn m-btn-6 mb-15">
-                                Add To Cart
-                              </a>
-                     
-                            <a rel="noreferrer" href="https://themehtmlForest.net/item/zibber-business-consulting-wordpress-theme/30120392" target="_blank" className="m-btn m-btn-7">
-                              Preview Project
-                            </a>
                           </div>
                         </div>
                         <div className="product__content">

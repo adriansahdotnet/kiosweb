@@ -8,7 +8,7 @@ const AboutArea = () => {
                <div className="row">
                   <div className="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1">
                      <div className="about__wrapper">
-                        <span className="about__sub-title">About Markit</span>
+                        <span className="about__sub-title">About Kios Web</span>
                         <h3 className="about__title">We are enabling <br/> Everyone to create for the website.</h3>
                         <div className="about__thumb w-img wow fadeInUp" data-wow-delay=".3s">
                            <img src="assets/img/about/about-1.jpg" alt=""/>
@@ -18,19 +18,19 @@ const AboutArea = () => {
                               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                  <div className="about__count-item text-center launche mb-30">
                                     <p>LAUNCHED IN</p>
-                                    <h4><span className="counter">2009</span></h4>
+                                    <h4><span className="counter">2020</span></h4>
                                  </div>
                               </div>
                               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                  <div className="about__count-item text-center community mb-30">
                                     <p>COMMUNITY OF</p>
-                                    <h4><span className="counter">13,000</span>+</h4>
+                                    <h4><span className="counter">500</span>+</h4>
                                  </div>
                               </div>
                               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                  <div className="about__count-item text-center mission mb-30">
                                     <p>MISSION PROGRESS</p>
-                                    <h4><span className="counter">4.9</span>%</h4>
+                                    <h4><span className="counter">43,6</span>%</h4>
                                  </div>
                               </div>
                            </div>

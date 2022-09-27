@@ -21,8 +21,6 @@ export default function Home() {
       <HeroArea />
       <CategoryArea />
       <Subscribe />
-      <Cta />
-      <BrandArea />
       <Testimonial />
       <BannerArea />
       <Footer />

@@ -38,16 +38,12 @@ const SidebarMenu = ({ show, handleClose }) => {
                                        <li><Link href="/home"><a>Home</a></Link></li>
                                     </div>
 
-                                    <div className='single_link iconAdd '>
-                                       <li><Link href="/product"><a>Produk</a></Link></li>
-                                    </div>
-
                                     <Collapsible trigger={<Link href="/product">Jasa Website</Link>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
                                           <li><Link href="/product"><a>Topup Games</a></Link></li>
-                                          <li><Link href="/product-details"><a>Landing Page</a></Link></li>
-                                          <li><Link href="/product-details"><a>Toko Online</a></Link></li>
+                                          <li><Link href="/product"><a>Landing Page</a></Link></li>
+                                          <li><Link href="/product"><a>Toko Online</a></Link></li>
                                        </ul>
                                     </Collapsible>
 
