@@ -40,7 +40,7 @@ const ProductDetailsArea = () => {
                                     <h3 className="product__overview-title">Detail Deskripsi</h3>
                                     <p>{`Untuk mengetahui info lengkap tentang fitur dari website ini, silahkan hubungi tim kami dengan klik tombol dibawah ini.`}</p> 
                                     <div className="product__social m-social grey-bg-2">
-                                       <h4 className="product__social-title">Follow us</h4>
+                                       <h4 className="product__social-title">Hubungi Kami</h4>
                                        <ul>
                                           <li><a href="https://wa.me/6285293026542" className="tw"><i className="fab fa-whatsapp"></i></a></li>
                                           <li><a href="https://instagram.com/kiosweb.id" className="pin"><i className="fab fa-instagram"></i></a></li>
