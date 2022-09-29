@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { specificItem } from '../../redux/features/productSlice';
 
 const ProductTrending = () => {
-   const productTrending = useSelector(state => state.products);
+   const productTrending = useSelector(state => state.products.product);
    const dispatch = useDispatch();
    return (
       <>

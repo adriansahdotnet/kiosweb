@@ -4,10 +4,10 @@ const SEO = ({ pageTitle,font }) => (
   <>
     <Head>
       <title>
-       Kios Web | Jasa pembuatan website #1 di indonesia.
+       Kios Web | Jasa pembuatan website #No1 di indonesia.
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-      <meta name="description" content="Jasa pembuatan website #1 Indonesia." />
+      <meta name="description" content="Jasa pembuatan website #No1 Indonesia." />
       <meta name="robots" content="noindex, follow" />
       <meta
         name="viewport"

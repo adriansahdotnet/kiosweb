@@ -39,7 +39,6 @@ const Header = () => {
                            <nav id="mobile-menu">
                               <ul>
                                     <li><Link href="/home"><a >Home</a></Link></li>
-                                    <li><Link href="/product"><a >Produk</a></Link></li>
                               <li className="has-dropdown">
                                     <Link href="/product">
                                        <a >Jasa Website</a>

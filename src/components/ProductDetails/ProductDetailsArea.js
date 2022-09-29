@@ -38,7 +38,7 @@ const ProductDetailsArea = () => {
                               <div className="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                                  <div className="product__overview">
                                     <h3 className="product__overview-title">Detail Deskripsi</h3>
-                                    <p>{`Untuk mengetahui info lengkap tentang fitur dari website ini, silahkan hubungi tim kami dengan klik tombol dibawah ini.`}</p> 
+                                    <p>{`Untuk mengetahui info lengkap tentang fitur dan demo preview dari website ini, silahkan hubungi tim kami dengan klik tombol dibawah ini.`}</p> 
                                     <div className="product__social m-social grey-bg-2">
                                        <h4 className="product__social-title">Hubungi Kami</h4>
                                        <ul>
