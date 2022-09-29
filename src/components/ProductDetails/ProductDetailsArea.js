@@ -26,7 +26,7 @@ const ProductDetailsArea = () => {
                         <div className="product__tab mb-40">
                            <ul className="nav nav-tabs" id="proTab" role="tablist">
                               <li className="nav-item" role="presentation">
-                                 <button className="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+                                 <button className="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Deskripsi</button>
                               </li>
                               <li className="nav-item" role="presentation">
                                  <button className="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button" role="tab" aria-controls="support" aria-selected="false">Support</button>
@@ -37,80 +37,13 @@ const ProductDetailsArea = () => {
                            <div className="tab-content" id="proTabContent">
                               <div className="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                                  <div className="product__overview">
-                                    <h3 className="product__overview-title">Template Details</h3>
-                                    <p>{`The little rotter absolutely bladdered wind up victoria sponge starkers cack posh jolly good lost the plot nancy boy bonnet plastered, bevvy say the bee's knees only a quid well bodge daft bits and bobs amongst my good sir golly gosh crikey, the wireless Eaton mush Harry codswallop boot porkies up the duff morish cor blimey guvnor. Faff about blower twit Why it's your round matie boy bog-standard, say A bit of how's your father.`}</p>
-                                    <p>{`What a plonker say william mush bite your arm off brown bread chinwag he legged it the bee's knees lost the plot loo gutted mate old, zonked bog Harry morish cup of char butty blag get stuffed mate cobblers cockup.!`}</p>
-                                    <div className="product__features mt-40">
-                                       <h3 className="product__overview-title">Template Features:</h3>
-                                       <ol>
-                                          <li>
-                                             <p>Fully Responsive Layout</p>
-                                          </li>
-                                          <li>
-                                             <p>CMS for Courses (Products)</p>
-                                          </li>
-                                          <li>
-                                             <p>CMS for Workshops</p>
-                                          </li>
-                                          <li>
-                                             <p>Symbols for Common Elements</p>
-                                          </li>
-                                          <li>
-                                             <p>Pre-Built Templates for Common Pages</p>
-                                          </li>
-                                          <li>
-                                             <p>Royalty-Free Google Fonts</p>
-                                          </li>
-                                          <li>
-                                             <p>Easy-to-Change Global Color Swatches</p>
-                                          </li>
-                                          <li>
-                                             <p>Working Contact Page</p>
-                                          </li>
-                                          <li>
-                                             <p>Slider Testimonial Section</p>
-                                          </li>
-                                          <li>
-                                             <p>Elegant Micro Interactions</p>
-                                          </li>
-                                       </ol>
-                                    </div>
-                                    <div className="product__features">
-                                       <h3 className="product__overview-title">Design Layout</h3>
-                                       <ol>
-                                          <li>
-                                             <p>Home / Landing</p>
-                                          </li>
-                                          <li>
-                                             <p>Products Collection</p>
-                                          </li>
-                                          <li>
-                                             <p>Services</p>
-                                          </li>
-                                          <li>
-                                             <p>App Collection</p>
-                                          </li>
-                                          <li>
-                                             <p>Blog Collection</p>
-                                          </li>
-                                          <li>
-                                             <p>Individual Blog Article</p>
-                                          </li>
-                                          <li>
-                                             <p>About</p>
-                                          </li>
-                                          <li>
-                                             <p>Contact</p>
-                                          </li>
-                                       </ol>
-                                    </div>
+                                    <h3 className="product__overview-title">Detail Deskripsi</h3>
+                                    <p>{`Untuk mengetahui info lengkap tentang fitur dari website ini, silahkan hubungi tim kami dengan klik Buat sekarang.`}</p> 
                                     <div className="product__social m-social grey-bg-2">
                                        <h4 className="product__social-title">Follow us</h4>
                                        <ul>
-                                          <li><a href="#" className="fb"><i className="fab fa-facebook-f"></i></a></li>
-                                          <li><a href="#" className="tw"><i className="fab fa-twitter"></i></a></li>
-                                          <li><a href="#" className="pin"><i className="fab fa-pinterest-p"></i></a></li>
-                                          <li><a href="#" className="link"><i className="fab fa-linkedin-in"></i></a></li>
+                                          <li><a href="https://instagram.com/kiosweb.id" className="pin"><i className="fab fa-instagram"></i></a></li>
+                                          <li><a href="https://wa.me/6285293026542" className="tw"><i className="fab fa-whatsapp"></i></a></li>
                                        </ul>
                                     </div>
                                  </div>
