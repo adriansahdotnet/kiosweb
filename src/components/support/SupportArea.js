@@ -29,7 +29,7 @@ const SupportArea = () => {
                <div className="row">
                   <div className="col-xxl-6 offset-xxl-3 col-xl-6 offset-xl-3">
                      <div className="page__title-wrapper text-center mb-60">
-                        <h2 className="page__title-2">Welcome! <br/>How can we help?</h2>
+                        <h2 className="page__title-2">Selamat Datang! <br/>Ada yang bisa kami bantu?</h2>
                         <p>Our support forums and make your support experience better.</p>
                      </div>
                   </div>
