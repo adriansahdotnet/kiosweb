@@ -26,7 +26,7 @@ const Product = () => {
   // currentpage
   const [currentPage, setCurrentPage] = useState(1);
   // product per page
-  const [productPerPage, setProductPerPage] = useState(4);
+  const [productPerPage, setProductPerPage] = useState(10);
   // index of last product
   const indexOfLastProduct = currentPage * productPerPage;
   // index of first product
