@@ -31,14 +31,6 @@ const ContactArea = () => {
               </div>
             </div>
           </div>
-          <div className="postbox__quote-2 mb-10">
-            <blockquote>
-              <h5>
-                Kontak WhatsApp hanya:
-                <a href="https://wa.me/6285293026542"> 085293026542.</a>
-              </h5>
-            </blockquote>
-          </div>
           <div className="row">
             <div className="col-xxl-7 col-xl-7">
               <div className="contact__wrapper  white-bg">
