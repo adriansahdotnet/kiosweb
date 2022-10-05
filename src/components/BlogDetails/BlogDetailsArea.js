@@ -48,8 +48,8 @@ const BlogDetailsArea = () => {
           </div>
         </div>
       </section>
-      <section class="contact__area">
-        <div class="contact__shape">
+      <section className="contact__area">
+        <div className="contact__shape">
           <img className="man-1" src="assets/img/icon/sign/man-3.png" alt="" />
           <img
             className="circle"
