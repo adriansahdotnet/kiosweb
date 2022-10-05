@@ -31,10 +31,10 @@ const BlogDetailsArea = () => {
                   <ul className="d-flex align-items-center">
                     <li>
                       <h6>
-                        <a href="/home">Kiosweb.id</a>
+                        <a href="home">Kiosweb.id</a>
                       </h6>
                       <span>
-                        <a href="/product">Lihat Produk</a>
+                        <a href="product">Lihat Produk</a>
                       </span>
                     </li>
                     <li>
