@@ -150,7 +150,7 @@ const SignUp = () => {
                         />
                         <label className="m-check-label" htmlFor="m-agree">
                           Saya setuju dengan
-                          <a href="/blog-details"> Terms & Conditions</a>
+                          <a href="blog-details"> Terms & Conditions</a>
                         </label>
                       </div>
                     </div>

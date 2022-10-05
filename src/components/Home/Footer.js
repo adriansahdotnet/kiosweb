@@ -190,7 +190,7 @@ const Footer = () => {
                         <a href="#">Licence</a>
                       </li>
                       <li>
-                        <a href="/blog-details">Privacy Policy </a>
+                        <a href="blog-details">Privacy Policy </a>
                       </li>
                     </ul>
                   </div>
