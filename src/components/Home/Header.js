@@ -106,10 +106,8 @@ const Header = () => {
                       </Link>
                     )}
                   </div>
-                  <div>
-                    <button type="submit" className="m-btn m-btn-2">
-                      <Link href="/sign-up">Daftar</Link>
-                    </button>
+                  <div className="m-btn m-btn-3">
+                    <Link href="/sign-up">Daftar</Link>
                   </div>
                   <div
                     className="sidebar__menu d-lg-none ms-3"
