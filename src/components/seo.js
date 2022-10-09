@@ -17,7 +17,10 @@ const SEO = ({ pageTitle, font }) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <meta name="image" content="/public/assets/img/logo/logobiru.png" />
+      <meta
+        name="image"
+        content="https://www.adriansah.net/assets/img/logo/logobiru.png"
+      />
 
       {font && <link href={font} rel="stylesheet" />}
       <link rel="icon" href="/faviconu.ico" />
