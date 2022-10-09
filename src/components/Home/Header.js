@@ -107,9 +107,9 @@ const Header = () => {
                     )}
                   </div>
                   <div class="header__btn d-none d-xl-block">
-                    <a href="/sign-up" class="m-btn m-btn-2">
+                    <Link href="/sign-up" class="m-btn m-btn-2">
                       Daftar
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="sidebar__menu d-lg-none ms-3"
