@@ -106,7 +106,7 @@ const Footer = () => {
                   data-wow-delay=".9s"
                 >
                   <div className="footer__widget-head">
-                    <h4 className="footer__widget-title">Products</h4>
+                    <h4 className="footer__widget-title">Pages</h4>
                   </div>
                   <div className="footer__widget-content">
                     <div className="footer__link">
@@ -124,7 +124,7 @@ const Footer = () => {
                           <a href="#">Pricing</a>
                         </li>
                         <li>
-                          <a href="#">Contact</a>
+                          <a href="contact">Contact</a>
                         </li>
                       </ul>
                     </div>
@@ -187,10 +187,10 @@ const Footer = () => {
                   >
                     <ul>
                       <li>
-                        <a href="#">Licence</a>
+                        <a href="#">Tentang Kami</a>
                       </li>
                       <li>
-                        <a href="blog-details">Privacy Policy </a>
+                        <a href="terms">Syarat & Ketentuan</a>
                       </li>
                     </ul>
                   </div>

@@ -3,7 +3,10 @@ import Head from "next/head";
 const SEO = ({ pageTitle, font }) => (
   <>
     <Head>
-      <title>Kios Web | Jasa pembuatan website #No1 di indonesia.</title>
+      <title>
+        {pageTitle &&
+          `${pageTitle} | Kiosweb -  Jasa pembuatan website No #1 Indonesia.}`}
+      </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="description"

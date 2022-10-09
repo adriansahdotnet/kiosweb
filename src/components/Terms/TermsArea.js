@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { specificBlog } from "../../redux/features/blogSlice";
 import BlogSideBar from "../Blog/BlogSideBar";
 
-const BlogDetailsArea = () => {
+const TermsArea = () => {
   const blogs = useSelector((state) => state.blogs.blogs);
   const blogItem = useSelector((state) => state.blogs.specificItem);
   //  dispatch
@@ -74,9 +74,9 @@ const BlogDetailsArea = () => {
                 <div className="postbox__details mb-30">
                   <div className="comment__wrapper p-relative white-bg">
                     <p>
-                      Calon Customer Kios Web wajib membaca dan memahami Syarat
-                      & Ketentuan (Perjanjian) berikut ini sebelum memutuskan
-                      untuk menggunakan layanan Kiosweb.id.
+                      Calon Customer Kiosweb.id wajib membaca dan memahami
+                      Syarat & Ketentuan (Perjanjian) berikut ini sebelum
+                      memutuskan untuk menggunakan layanan Kiosweb.id.
                     </p>
                     <p>
                       Perjanjian ini dibuat{" "}
@@ -290,4 +290,4 @@ const BlogDetailsArea = () => {
   );
 };
 
-export default BlogDetailsArea;
+export default TermsArea;
