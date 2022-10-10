@@ -21,7 +21,7 @@ const Testimonial = () => {
       img: "assets/img/testimonial/testi-3.jpg",
       name: "Thoriq Ibrahim",
       title: "Papa Muda",
-      desc: "Udah beli web disini berkai-kali dan nggak pernah sekaipun dibuat kecewa. bahkan cs nya selalu ramah dan enak banget kalau di komplain. Terbest banget deh Kiosweb.",
+      desc: "Udah beli web disini berkai-kali dan nggak pernah sekalipun dibuat kecewa. bahkan cs nya selalu ramah dan enak banget kalau di komplain. Terbest banget deh Kiosweb.",
     },
     {
       id: 4,
