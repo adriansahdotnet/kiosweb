@@ -42,7 +42,7 @@ const HeroArea = () => {
               <div className="hero__content">
                 <h2 className="hero__title">
                   <span>Kiosweb.id</span> <br />
-                  Jasa pembuatan website #1.
+                  Jasa pembuatan website No #1.
                 </h2>
                 <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
                 <div className="hero__search">
