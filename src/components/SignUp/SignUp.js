@@ -58,10 +58,7 @@ const SignUp = () => {
           <div className="row">
             <div className="col-xxl-8 offset-xxl-2 col-xl-8 offset-xl-2">
               <div className="page__title-wrapper text-center mb-55">
-                <h2 className="page__title-2">
-                  Create a free <br /> Account
-                </h2>
-                <p>{"I'm a subhead that goes with a story."}</p>
+                <h2 className="page__title-2">Buat akun</h2>
               </div>
             </div>
           </div>
@@ -80,38 +77,30 @@ const SignUp = () => {
                       <i className="fab fa-google-plus-g"></i>Masuk dengan
                       Google
                     </a>
-                    <p>
-                      {" "}
-                      <span>........</span> atau,{" "}
-                      <Link href="/sign-up">
-                        <a>daftar</a>
-                      </Link>{" "}
-                      menggunakan email<span> ........</span>{" "}
-                    </p>
                   </div>
                 </div>
                 <div className="sign__form">
                   <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="sign__input-wrapper mb-25">
-                      <h5>Full Name</h5>
+                      <h5>Nama Lengkap</h5>
                       <div className="sign__input">
                         <input
                           {...register("name")}
                           required
                           type="text"
-                          placeholder="Full name"
+                          placeholder="Nama Lengkap"
                         />
                         <i className="fal fa-user"></i>
                       </div>
                     </div>
                     <div className="sign__input-wrapper mb-25">
-                      <h5>Work email</h5>
+                      <h5>Email</h5>
                       <div className="sign__input">
                         <input
                           {...register("email")}
                           required
                           type="email"
-                          placeholder="e-mail address"
+                          placeholder="Email"
                         />
                         <i className="fal fa-envelope"></i>
                       </div>
@@ -129,13 +118,13 @@ const SignUp = () => {
                       </div>
                     </div>
                     <div className="sign__input-wrapper mb-10">
-                      <h5>Re-Password</h5>
+                      <h5>Ulangi Password</h5>
                       <div className="sign__input">
                         <input
                           {...register("re_password")}
                           required
                           type="password"
-                          placeholder="Re-Password"
+                          placeholder="Ulangi Password"
                         />
                         <i className="fal fa-lock"></i>
                       </div>

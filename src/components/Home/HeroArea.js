@@ -41,10 +41,10 @@ const HeroArea = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-8">
               <div className="hero__content">
                 <h2 className="hero__title">
-                  <span>Kiosweb.Id</span> <br />
+                  <span>Kiosweb.id</span> <br />
                   Jasa pembuatan website #1.
                 </h2>
-                <p>{`Tingkatkan peluang bisnismu dengan KiosWeb.`}</p>
+                <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
                 <div className="hero__search">
                   <form action="#">
                     <div className="hero__search-inner d-xl-flex">
