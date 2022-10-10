@@ -39,12 +39,12 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-xxl-7 col-xl-7 col-lg-8 d-none d-lg-block text-start">
+              <div className="col-xxl-7 col-xl-7 col-lg-8 d-none d-lg-block text-center">
                 <div className="main-menu">
                   <nav id="mobile-menu">
                     <ul>
                       <li>
-                        <Link href="https://adriansah.net">
+                        <Link href="/home">
                           <a>Home</a>
                         </Link>
                       </li>
@@ -106,7 +106,7 @@ const Header = () => {
                       </Link>
                     )}
                   </div>
-                  <div className="m-btn m-btn-3">
+                  <div className="m-btn m-btn-2 d-none d-xl-block">
                     <Link href="/sign-up">Daftar</Link>
                   </div>
                   <div
