@@ -15,7 +15,7 @@ import SEO from "../components/seo";
 export default function Home() {
   return (
     <>
-      <SEO pageTitle={"Kios Web"} />
+      <SEO pageTitle={"Jasa Website Brebes"} />
       <Header />
       <HeroArea />
       <CategoryArea />
