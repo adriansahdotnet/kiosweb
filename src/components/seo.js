@@ -3,7 +3,7 @@ import Head from "next/head";
 const SEO = ({ pageTitle, font }) => (
   <>
     <Head>
-      <title>{pageTitle && `${pageTitle} | Buat Sekarang Besok Jadi}`}</title>
+      <title>{pageTitle && `${pageTitle} | Buat Sekarang Besok Jadi`}</title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="description"
