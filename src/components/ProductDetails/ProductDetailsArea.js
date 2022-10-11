@@ -105,7 +105,7 @@ const ProductDetailsArea = () => {
                     </a>
                   </span>
                   <a
-                    href="https://wa.me/6285293026542"
+                    href="https://demokiosweb.blogspot.com/"
                     rel="noreferrer"
                     target="_blank"
                     className="m-btn m-btn-border w-100"
