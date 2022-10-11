@@ -9,10 +9,19 @@ const SEO = ({ pageTitle, font }) => (
         name="description"
         content="Jasa pembuatan website No. #1 Brebes."
       />
+      <link rel="canonical" href="https://adriansah.net/" />
+      <meta property="og:locale" content="id_ID" />
+      <meta
+        name="google-site-verification"
+        content="ZyWy7M6AF49uV4kAjjb4ngI7GzbUmBWRud2w9y6FZCg"
+      />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
+      <meta property="og:url" content="https://adriansah.net/" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@ardhiyasa11" />
       <meta
         name="image"
         content="https://www.adriansah.net/assets/img/logo/logobiru.png"
