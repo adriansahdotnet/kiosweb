@@ -25,6 +25,10 @@ export default function Home() {
       <Testimonial />
       <BannerArea />
       <Footer />
+      <script
+        src="//code.tidio.co/wjukaw0fpccxkwgsmadrbzcrartqkal4.js"
+        async
+      ></script>
     </>
   );
 }
