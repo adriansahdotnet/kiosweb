@@ -73,7 +73,7 @@ const Product = () => {
 
   return (
     <>
-      <SEO pageTitle={"Produk Kios Web"} />
+      <SEO pageTitle={"Jasa Website"} />
       {/*  Header start  */}
       <Header />
       {/* Header end */}
