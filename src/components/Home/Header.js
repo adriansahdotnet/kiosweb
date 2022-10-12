@@ -71,7 +71,7 @@ const Header = () => {
                         </ul>
                       </li>
                       <li>
-                        <Link href="/support">
+                        <Link href="https://docs.adriansah.net">
                           <a>Docs</a>
                         </Link>
                       </li>
