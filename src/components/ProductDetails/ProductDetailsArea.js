@@ -97,7 +97,7 @@ const ProductDetailsArea = () => {
                   <span>
                     <a
                       style={{ cursor: "pointer" }}
-                      href="https://wa.me/6285293026542"
+                      href="https://invoice-staging.xendit.co/od/kiosweb-id"
                       className="m-btn m-btn-2 w-100 mb-20"
                     >
                       {" "}
