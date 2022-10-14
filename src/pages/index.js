@@ -18,8 +18,8 @@ export default function Home() {
       <SEO pageTitle={"Jasa Website Brebes"} />
       <Header />
       <HeroArea />
-      <CategoryArea />
       <Products />
+      <CategoryArea />
       <Subscribe />
       <TrendingLandmark />
       <Testimonial />
