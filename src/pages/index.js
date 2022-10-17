@@ -29,7 +29,7 @@ export default function Home() {
         src="https://cdn.commoninja.com/sdk/latest/commonninja.js"
         defer
       ></script>
-      <div className="commonninja_component pid-b99aec24-9d09-4bb8-a3df-e5dec252a5e3"></div>
+      <div className="commonninja_component pid-56044040-77b5-451a-87b1-9c4bc5ec97cb"></div>
     </>
   );
 }
