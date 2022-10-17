@@ -48,27 +48,10 @@ const Header = () => {
                           <a>Home</a>
                         </Link>
                       </li>
-                      <li className="has-dropdown">
+                      <li>
                         <Link href="/product">
                           <a>Jasa Website</a>
                         </Link>
-                        <ul className="submenu">
-                          <li>
-                            <Link href="/product">
-                              <a>Topup Games</a>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/product-details">
-                              <a>Landing Page</a>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/product-details">
-                              <a>Toko Online</a>
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
                       <li>
                         <Link href="https://docs.adriansah.net">

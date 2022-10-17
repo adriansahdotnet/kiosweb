@@ -53,16 +53,17 @@ const ProductDetailsArea = () => {
                           <h3 className="product__overview-title">
                             Detail Deskripsi
                           </h3>
-                          <p>{`Untuk mengetahui info lengkap tentang fitur dan demo preview dari website ini, silahkan hubungi tim kami dengan klik tombol dibawah ini.`}</p>
+                          <p>{`Untuk mengetahui info lengkap tentang fitur dan demo preview dari website ini,
+                          silahkan hubungi tim kami melalui Telegram dengan klik tombol dibawah ini.`}</p>
 
                           <div>
                             <ul>
                               <li>
                                 <a
-                                  href="https://wa.me/6285293026542"
+                                  href="https://t.me/cs_kiosweb"
                                   className="m-btn m-btn-2"
                                 >
-                                  Whatsapp
+                                  Telegram
                                 </a>
                               </li>
                             </ul>
