@@ -26,10 +26,9 @@ export default function Home() {
       <BannerArea />
       <Footer />
       <script
-        src="https://cdn.commoninja.com/sdk/latest/commonninja.js"
-        defer
+        src="//code.tidio.co/wjukaw0fpccxkwgsmadrbzcrartqkal4.js"
+        async
       ></script>
-      <div className="commonninja_component pid-56044040-77b5-451a-87b1-9c4bc5ec97cb"></div>
     </>
   );
 }
