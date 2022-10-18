@@ -13,7 +13,7 @@ const SEO = ({ pageTitle, font }) => (
       <meta property="og:locale" content="id_ID" />
       <meta
         name="google-site-verification"
-        content="ZyWy7M6AF49uV4kAjjb4ngI7GzbUmBWRud2w9y6FZCg"
+        content="rxGsKZ-dpXTbMOmaLw4wPYtutQBuTBeOXO4-3QtGSh"
       />
       <meta
         name="viewport"
