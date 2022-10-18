@@ -9,7 +9,7 @@ const SEO = ({ pageTitle, font }) => (
         name="description"
         content="Jasa pembuatan website No. #1 Brebes."
       />
-      <link rel="canonical" href="https://adriansah.net/" />
+      <link rel="canonical" href="https://kiosweb.id/" />
       <meta property="og:locale" content="id_ID" />
       <meta
         name="google-site-verification"
@@ -19,12 +19,12 @@ const SEO = ({ pageTitle, font }) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <meta property="og:url" content="https://adriansah.net/" />
+      <meta property="og:url" content="https://kiosweb.id/" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@ardhiyasa11" />
       <meta
         name="image"
-        content="https://www.adriansah.net/assets/img/logo/logobiru.png"
+        content="https://www.kiosweb.id/assets/img/logo/logobiru.png"
       />
 
       {font && <link href={font} rel="stylesheet" />}
