@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../../components/Home/Footer";
 import Header from "../../components/Home/Header";
 import SEO from "../../components/seo";
-import BlogArea from "../../components/support/BlogArea";
 import CtaArea from "../../components/support/CtaArea";
 import FaqArea from "../../components/support/FaqArea";
 import SupportArea from "../../components/support/SupportArea";
