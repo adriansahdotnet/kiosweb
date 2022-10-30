@@ -32,7 +32,7 @@ const productData = [
     img_big: "assets/img/product/oura.png",
     title: "Web Topup Games - Oura Store",
     category: "Web Topup Games",
-    price: "950.000",
+    price: "800.000",
     tag: "Integrasi VIP Reseller",
   },
   {
@@ -50,7 +50,7 @@ const productData = [
     img_big: "assets/img/product/smm.png",
     title: "Web SMM - Purple Panel",
     category: "Web SMM",
-    price: "950.000",
+    price: "800.000",
     tag: "smm",
   },
 ];
