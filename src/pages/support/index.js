@@ -19,7 +19,6 @@ const Support = () => {
       {/* bg shape area end  */}
       <SupportArea />
       <FaqArea />
-      <BlogArea />
       <CtaArea />
       <Footer />
     </>
