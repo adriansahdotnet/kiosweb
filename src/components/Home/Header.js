@@ -44,7 +44,7 @@ const Header = () => {
                   <nav id="mobile-menu">
                     <ul>
                       <li>
-                        <Link href="/home">
+                        <Link href="/">
                           <a>Home</a>
                         </Link>
                       </li>

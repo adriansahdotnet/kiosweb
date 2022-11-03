@@ -56,7 +56,7 @@ const HeroArea = () => {
                       </div>
                       <button type="submit" className="m-btn ml-20">
                         {" "}
-                        <span></span> search
+                        <span></span> Lihat Tampilan
                       </button>
                     </div>
                   </form>

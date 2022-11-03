@@ -32,7 +32,7 @@ const productData = [
     img_big: "assets/img/product/oura.png",
     title: "Web Topup Games - Oura Store",
     category: "Web Topup Games",
-    price: "800.000",
+    price: "1.050.000",
     tag: "Integrasi VIP Reseller",
   },
   {
