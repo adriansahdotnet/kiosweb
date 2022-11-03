@@ -26,6 +26,7 @@ const SEO = ({ pageTitle, font }) => (
         name="image"
         content="https://www.kiosweb.id/assets/img/logo/logobiru.png"
       />
+      <meta name="googlebot" content="index" />
 
       {font && <link href={font} rel="stylesheet" />}
       <link rel="icon" href="/faviconu.ico" />
