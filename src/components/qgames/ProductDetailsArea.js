@@ -296,18 +296,18 @@ const ProductDetailsArea = () => {
                           ></button>
                         </div>
                         <div className="modal-body">
-                          <div className="row justify-content-between">
+                          <div class="row justify-content-between">
                             <p>
-                              Silahkan melakukan pembayaran melalui metode yang
-                              tersedia dibawah ini sebelum 1x24 jam.
+                              Silahkan melakukan pembayaran melalui metode
+                              dibawah ini sebelum 1x24 jam.
                             </p>
-                            <div className="col-5">
-                              Total Amount
-                              <h4 className="float-start">Rp 1.250.000</h4>
+                            <div class="col-md-12">
+                              Total Harga
+                              <div className="col-12 ms-auto">
+                                <h3>Rp 1.250.000</h3>
+                              </div>
                             </div>
-                            <h6>
-                              _______________________________________________
-                            </h6>
+                            <span>_____________________________________</span>
                           </div>
                           <div className="table-responsive">
                             <table>
@@ -315,20 +315,19 @@ const ProductDetailsArea = () => {
                                 <tr>
                                   <td
                                     className="text-center tb-metode"
-                                    width="10%"
+                                    width="20%"
                                   >
                                     <img
                                       src="assets/img/method/bri.png"
                                       alt=""
                                       className="w-100"
-                                      width={"20%"}
                                     ></img>
-                                    <h3 className="mb-0 pb-2">
+                                    <h5 className="mb-0 pb-2">
                                       587201023266532
-                                    </h3>
-                                    <h5 className="text-muted fs-12">
-                                      A/n Renaldi Adriansah
                                     </h5>
+                                    <p className="text-muted fs-12">
+                                      A/n Renaldi Adriansah
+                                    </p>
                                   </td>
                                 </tr>
                               </tbody>
