@@ -296,12 +296,12 @@ const ProductDetailsArea = () => {
                           ></button>
                         </div>
                         <div className="modal-body">
-                          <div class="row justify-content-between">
+                          <div className="row justify-content-between">
                             <p>
                               Silahkan melakukan pembayaran melalui metode
                               dibawah ini sebelum 1x24 jam.
                             </p>
-                            <div class="col-md-12">
+                            <div className="col-md-12">
                               Total Harga
                               <div className="col-12 ms-auto">
                                 <h3>Rp 1.250.000</h3>
