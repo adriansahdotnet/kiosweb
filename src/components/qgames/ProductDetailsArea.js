@@ -266,7 +266,7 @@ const ProductDetailsArea = () => {
                       </a>
                     </span>
                     <a
-                      href="https://demo.kiosweb.id/cgames/"
+                      href="https://demo.kiosweb.id/qgames/"
                       rel="noreferrer"
                       target="_blank"
                       className="m-btn m-btn-border w-100"
