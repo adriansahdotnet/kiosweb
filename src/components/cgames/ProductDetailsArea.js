@@ -276,8 +276,9 @@ const ProductDetailsArea = () => {
                     <span>
                       <a
                         style={{ cursor: "pointer" }}
-                        href="https://invoice.xendit.co/od/kiosweb"
                         className="m-btn m-btn-2 w-100 mb-20"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         {" "}
                         <span></span> Buat Sekarang
@@ -292,6 +293,72 @@ const ProductDetailsArea = () => {
                       {" "}
                       <span></span> Lihat Preview
                     </a>
+                  </div>
+
+                  <div
+                    className="modal fade"
+                    id="exampleModal"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div className="modal-dialog modal-dialog-centered">
+                      <div className="modal-content">
+                        <div className="modal-header">
+                          <h5 className="modal-title" id="exampleModalLabel">
+                            Pembayaran
+                          </h5>
+                          <button
+                            type="button"
+                            className="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div className="modal-body">
+                          <div className="row justify-content-between">
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Qty</th>
+                                  <th scope="col">Item</th>
+                                  <th scope="col">Harga</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Web TopUp Games - CGames</td>
+                                  <td>Rp. 1.450.000</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <div class="col-12">
+                              Silahkan melakukan pembayaran melalui metode yang
+                              tersedia dibawah ini sebelum 1x24 jam.
+                            </div>
+                          </div>
+                          <div className="text-center pt-10">
+                            <img
+                              src="assets/img/method/bri.png"
+                              class="img-fluid"
+                              width={"70%"}
+                              alt="..."
+                            ></img>
+                            <h5>587201023266532</h5>
+                            <p>A/n. Renaldi Adriansah</p>
+                          </div>
+                        </div>
+
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="m-btn m-btn-2 w-100 fix"
+                          >
+                            <a href="https://wa.me/6285293026542">Konfirmasi</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div

@@ -297,41 +297,36 @@ const ProductDetailsArea = () => {
                         </div>
                         <div className="modal-body">
                           <div className="row justify-content-between">
-                            <p>
-                              Silahkan melakukan pembayaran melalui metode
-                              dibawah ini sebelum 1x24 jam.
-                            </p>
-                            <div className="col-md-12">
-                              Total Harga
-                              <div className="col-12 ms-auto">
-                                <h3>Rp 1.250.000</h3>
-                              </div>
-                            </div>
-                            <span>_____________________________________</span>
-                          </div>
-                          <div className="table-responsive">
-                            <table>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Qty</th>
+                                  <th scope="col">Item</th>
+                                  <th scope="col">Harga</th>
+                                </tr>
+                              </thead>
                               <tbody>
                                 <tr>
-                                  <td
-                                    className="text-center tb-metode"
-                                    width="20%"
-                                  >
-                                    <img
-                                      src="assets/img/method/bri.png"
-                                      alt=""
-                                      className="w-100"
-                                    ></img>
-                                    <h5 className="mb-0 pb-2">
-                                      587201023266532
-                                    </h5>
-                                    <p className="text-muted fs-12">
-                                      A/n Renaldi Adriansah
-                                    </p>
-                                  </td>
+                                  <th scope="row">1</th>
+                                  <td>Web TopUp Games - QGames</td>
+                                  <td>Rp. 1.250.000</td>
                                 </tr>
                               </tbody>
                             </table>
+                            <div class="col-12">
+                              Silahkan melakukan pembayaran melalui metode yang
+                              tersedia dibawah ini sebelum 1x24 jam.
+                            </div>
+                          </div>
+                          <div className="text-center pt-10">
+                            <img
+                              src="assets/img/method/bri.png"
+                              class="img-fluid"
+                              width={"70%"}
+                              alt="..."
+                            ></img>
+                            <h5>587201023266532</h5>
+                            <p>A/n. Renaldi Adriansah</p>
                           </div>
                         </div>
 
