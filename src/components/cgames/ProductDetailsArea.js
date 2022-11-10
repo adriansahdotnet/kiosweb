@@ -316,7 +316,7 @@ const ProductDetailsArea = () => {
                         </div>
                         <div className="modal-body">
                           <div className="row justify-content-between">
-                            <table class="table table-striped">
+                            <table className="table table-striped">
                               <thead>
                                 <tr>
                                   <th scope="col">Qty</th>
@@ -332,7 +332,7 @@ const ProductDetailsArea = () => {
                                 </tr>
                               </tbody>
                             </table>
-                            <div class="col-12">
+                            <div className="col-12">
                               Silahkan melakukan pembayaran melalui metode yang
                               tersedia dibawah ini sebelum 1x24 jam.
                             </div>
@@ -340,7 +340,7 @@ const ProductDetailsArea = () => {
                           <div className="text-center pt-10">
                             <img
                               src="assets/img/method/bri.png"
-                              class="img-fluid"
+                              className="img-fluid"
                               width={"70%"}
                               alt="..."
                             ></img>
