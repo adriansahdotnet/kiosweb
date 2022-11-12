@@ -19,6 +19,15 @@ const productData = [
   },
   {
     id: "3",
+    img: "assets/img/trending/tren-6.jpg",
+    img_big: "assets/img/product/cgames-manual.png",
+    title: "Web TopUp dan Joki (Manual)",
+    category: "Web Topup Games",
+    price: "750.000",
+    tag: "Topup Manual",
+  },
+  {
+    id: "4",
     img: "assets/img/trending/tren-2.jpg",
     img_big: "assets/img/product/figames.png",
     title: "Web Topup Games - FiGames",
@@ -27,7 +36,7 @@ const productData = [
     tag: "Integrasi Digiflazz",
   },
   {
-    id: "4",
+    id: "5",
     img: "assets/img/trending/tren-4.jpg",
     img_big: "assets/img/product/oura.png",
     title: "Web Topup Games - Oura Store",
@@ -36,7 +45,7 @@ const productData = [
     tag: "Integrasi VIP Reseller",
   },
   {
-    id: "5",
+    id: "6",
     img: "assets/img/trending/tren-5.jpg",
     img_big: "assets/img/product/rgames.png",
     title: "Web Topup Games - R Games",
@@ -45,7 +54,7 @@ const productData = [
     tag: "Topup Manual",
   },
   {
-    id: "6",
+    id: "7",
     img: "assets/img/trending/tren-6.jpg",
     img_big: "assets/img/product/smm.png",
     title: "Web SMM - Purple Panel",
