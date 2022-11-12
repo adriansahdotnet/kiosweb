@@ -65,6 +65,10 @@ const ProductDetailsArea = () => {
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
+                              Hitung Otomatis Nomial Pembayaran
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
                               Daftar Harga
                             </li>
                             <li>
