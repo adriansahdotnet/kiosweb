@@ -19,13 +19,13 @@ const UserArea = () => {
   };
   return (
     <>
-      <section class="contact__area pt-50 pb-145">
-        <div class="contact__shape">
-          <div class="container">
-            <div class="row mb-30">
-              <div class="col-xxl-12">
-                <div class="page__title-wrapper mb-55">
-                  <h2 class="page__title-2">Member area.</h2>
+      <section className="contact__area pt-50 pb-145">
+        <div className="Namecontact__shape">
+          <div className="container">
+            <div className="row mb-30">
+              <div className="col-xxl-12">
+                <div className="page__title-wrapper mb-55">
+                  <h2 className="page__title-2">Member area.</h2>
                   <p>Kamu dapat melihat tema, saldo &amp; juga tagihan kamu.</p>
                 </div>
               </div>
