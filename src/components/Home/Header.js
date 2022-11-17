@@ -5,6 +5,7 @@ import useCartInfo from "../../hooks/use-cart-info";
 import useAuth from "../../hooks/useAuth";
 import useSticky from "../../hooks/useSticky";
 import SidebarMenu from "../Sidebar/SidebarMenu";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 const Header = () => {
   // handle cartQuantity
@@ -19,6 +20,7 @@ const Header = () => {
   const { sticky } = useSticky();
   // user
   const { user, logout } = useAuth();
+
   return (
     <>
       <header>
@@ -89,9 +91,27 @@ const Header = () => {
                       </Link>
                     )}
                   </div>
-                  <div className="m-btn m-btn-2 d-none d-xl-block">
-                    <Link href="/sign-up">Daftar</Link>
-                  </div>
+                  {!user && (
+                    <div className="m-btn m-btn-2 d-none d-xl-block">
+                      <Link href="/sign-up">Daftar</Link>
+                    </div>
+                  )}
+                  {user && (
+                    <div className="d-flex pr-2 align-items-center justify-content-end">
+                      <span className="me-2 fw-bold">{user.displayName} </span>
+                      <div>
+                        <Link href="/user">
+                          <img
+                            src={user.photoURL}
+                            alt="avatar"
+                            referrerPolicy="no-referrer"
+                            width="40px"
+                            className="d-inline-block rounded-circle"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  )}
                   <div
                     className="sidebar__menu d-lg-none ms-3"
                     onClick={handleShow}

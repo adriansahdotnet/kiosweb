@@ -12,9 +12,12 @@ const productData = [
     id: "2",
     img: "assets/img/trending/tren-3.jpg",
     img_big: "assets/img/product/cgames.png",
+    img_cgames: "assets/img/product/cgames.png",
     title: "Web Topup Games - CGames",
+    title_cgames: "Web Topup Games - CGames",
     category: "Web Topup Games",
     price: "1.485.000",
+    price_cgames: "1.485.000",
     tag: "Integrasi ApiGames & VIP Reseller",
   },
   {
@@ -28,15 +31,6 @@ const productData = [
   },
   {
     id: "4",
-    img: "assets/img/trending/tren-2.jpg",
-    img_big: "assets/img/product/figames.png",
-    title: "Web Topup Games - FiGames",
-    category: "Web Topup Games",
-    price: "950.000",
-    tag: "Integrasi Digiflazz",
-  },
-  {
-    id: "5",
     img: "assets/img/trending/tren-4.jpg",
     img_big: "assets/img/product/oura.png",
     title: "Web Topup Games - Oura Store",
@@ -45,7 +39,7 @@ const productData = [
     tag: "Integrasi VIP Reseller",
   },
   {
-    id: "6",
+    id: "5",
     img: "assets/img/trending/tren-5.jpg",
     img_big: "assets/img/product/rgames.png",
     title: "Web Topup Games - R Games",
@@ -54,13 +48,22 @@ const productData = [
     tag: "Topup Manual",
   },
   {
-    id: "7",
+    id: "6",
     img: "assets/img/trending/tren-6.jpg",
     img_big: "assets/img/product/smm.png",
     title: "Web SMM - Purple Panel",
     category: "Web SMM",
     price: "800.000",
     tag: "smm",
+  },
+  {
+    id: "7",
+    img: "assets/img/trending/tren-4.jpg",
+    img_big: "assets/img/product/flash-media.jpg",
+    title: "Web Berita - Flash Media",
+    category: "Web Berita",
+    price: "550.000",
+    tag: "Media Berita",
   },
 ];
 

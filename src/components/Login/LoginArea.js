@@ -1,10 +1,16 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import useAuth from "../../hooks/useAuth";
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { useForm } from "react-hook-form";
+import { auth } from "../../hooks/useAuth";
+import { Router, useRouter } from "next/router";
 
 const LoginArea = () => {
-  const { handleGoogleSignIn, loginUser, passwordResetEmail } = useAuth();
+  const { handleGoogleSignIn, LoginUser, passwordResetEmail } = useAuth();
+  {
+    const route = useRouter();
+  }
   const [email, setEmail] = useState("");
 
   const { register, handleSubmit, reset } = useForm();
@@ -50,10 +56,7 @@ const LoginArea = () => {
                     onClick={handleGoogleSignIn}
                     className="sign__in text-center"
                   >
-                    <a
-                      href="#"
-                      className="sign__social g-plus text-start mb-15"
-                    >
+                    <a className="sign__social g-plus text-start mb-15">
                       <i className="fab fa-google-plus-g"></i>Masuk dengan
                       Google
                     </a>
