@@ -42,19 +42,21 @@ const UserArea = () => {
           <div className="container">
             <div className="row">
               <div className="col-xxl-8 col-xl-8">
-                <div class="card mb-3" style={{ maxWidth: "700px" }}>
-                  <div class="row g-0">
-                    <div class="col-md-4">
+                <div className="card mb-3" style={{ maxWidth: "700px" }}>
+                  <div className="row g-0">
+                    <div className="col-md-4">
                       <img
                         src={product?.img_big}
-                        class="img-fluid rounded-start"
+                        className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h3 class="card-title">{product.title}</h3>
-                        <h4 class="card-text pb-3">Harga {product.price}</h4>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h3 className="card-title">{product.title}</h3>
+                        <h4 className="card-text pb-3">
+                          Harga {product.price}
+                        </h4>
                         <button type="button" className="m-btn m-btn-2">
                           Download
                         </button>
@@ -62,19 +64,21 @@ const UserArea = () => {
                     </div>
                   </div>
                 </div>
-                <div class="card mb-3" style={{ maxWidth: "700px" }}>
-                  <div class="row g-0">
-                    <div class="col-md-4">
+                <div className="card mb-3" style={{ maxWidth: "700px" }}>
+                  <div className="row g-0">
+                    <div className="col-md-4">
                       <img
                         src={product?.img_big}
-                        class="img-fluid rounded-start"
+                        className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h3 class="card-title">{product.title}</h3>
-                        <h4 class="card-text pb-3">Harga {product.price}</h4>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h3 className="card-title">{product.title}</h3>
+                        <h4 className="card-text pb-3">
+                          Harga {product.price}
+                        </h4>
                         <button type="button" className="m-btn m-btn-2">
                           Download
                         </button>
