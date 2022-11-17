@@ -99,17 +99,6 @@ const Header = () => {
                   {user && (
                     <div className="d-flex pr-2 align-items-center justify-content-end">
                       <span className="me-2 fw-bold">{user.displayName} </span>
-                      <div>
-                        <Link href="/user">
-                          <img
-                            src={user.photoURL}
-                            alt="avatar"
-                            referrerPolicy="no-referrer"
-                            width="40px"
-                            className="d-inline-block rounded-circle"
-                          />
-                        </Link>
-                      </div>
                     </div>
                   )}
                   <div
