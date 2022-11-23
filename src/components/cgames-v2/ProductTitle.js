@@ -10,7 +10,7 @@ const ProductTitle = () => {
         <div className="row justify-content-center">
           <div className="col-xxl-8 col-xl-8 col-lg-8">
             <div className="page__title-content mb-50">
-              <h2 className="page__title">Web Berita - Flash Media</h2>
+              <h2 className="page__title">Web Topup Games - CGames V2</h2>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">

@@ -5,10 +5,10 @@ import { useSelector } from "react-redux";
 const ProductTitle = () => {
   const product = useSelector((state) => state.products.specificProduct);
   return (
-    <section className="page__title-area  pt-85">
+    <section className="page__title-area  pt-40">
       <div className="container">
-        <div className="row">
-          <div className="col-xxl-12">
+        <div className="row justify-content-center">
+          <div className="col-xxl-8 col-xl-8 col-lg-8">
             <div className="page__title-content mb-50">
               <h2 className="page__title">Web Topup Games - CGames</h2>
               <nav aria-label="breadcrumb">

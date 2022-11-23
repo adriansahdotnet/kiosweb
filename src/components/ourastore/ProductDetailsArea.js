@@ -21,7 +21,7 @@ const ProductDetailsArea = () => {
               <div className="product__wrapper">
                 <div className="product__details-thumb w-img mb-30">
                   <img
-                    src="assets/img/product/qgames.png"
+                    src="assets/img/product/oura.png"
                     alt="product-details"
                   />
                 </div>
@@ -38,7 +38,7 @@ const ProductDetailsArea = () => {
                       <div className="product__proprietor-price">
                         <span className="d-flex align-items-start">
                           <span>Rp </span>
-                          1.250.000
+                          2.000.000
                         </span>
                       </div>
                     </div>
@@ -56,7 +56,7 @@ const ProductDetailsArea = () => {
                       </a>
                     </span>
                     <a
-                      href="https://demo.kiosweb.id/qgames/"
+                      href="https://demo.kiosweb.id/ourastore/"
                       rel="noreferrer"
                       target="_blank"
                       className="m-btn m-btn-border w-100"
@@ -98,8 +98,8 @@ const ProductDetailsArea = () => {
                               <tbody>
                                 <tr>
                                   <th scope="row">1</th>
-                                  <td>Web TopUp Games - QGames</td>
-                                  <td>Rp. 1.250.000</td>
+                                  <td>Web TopUp Games - Oura Store</td>
+                                  <td>Rp. 2.000.000</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -176,15 +176,15 @@ const ProductDetailsArea = () => {
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
-                              Transaksi Sebagai Member
+                              Check Username Games (Support 19 games)
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
-                              Top Up
+                              Daftar harga
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
-                              Cara Membeli
+                              Cari Produk
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
@@ -192,17 +192,124 @@ const ProductDetailsArea = () => {
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
-                              Syarat &amp; Ketentuan
+                              Dark / Light Mode
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
-                              Pertanyaan Umum
+                              Pop Up Content
                             </li>
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
-                              Bantuan
+                              Petunjuk
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
+                              Deposite Saldo (acc manual via tf bank/e-wallet)
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
+                              Pembayaran via saldo
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
+                              Voucher diskon
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
+                              Atur keuntungan berdasarkan %
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
+                              Seting harga, Harga asli dan harga member ( jadi
+                              bisa buat harga member lebih murah)
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
+                              Notifikasi WhatsApp
                             </li>
                           </ul>
+                          <div>
+                            <br />
+                            <p>{"Terintegrasi Ke:"}</p>
+                            <ul>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                DigiFlazz
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Apigames
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                VIP Reseller
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Smile One (PHP Section)
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <br />
+                            <p>{"Payment Gateway:"}</p>
+                            <ul>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                IPaymu (tersedia)
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Xendit (request)
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Tripay (request)
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Mutasi OVO (otomatis)
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Mutasi Gopay (otomatis)
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <br />
+                            <p>{"Fitur Member:"}</p>
+                            <ul>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Dashboard Member
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                History Transaksi
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Cek Pesanan
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Cek Validasi Games
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Edit Nama, Username dan Password
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Deposite
+                              </li>
+                              <li>
+                                <i className="fad fa-check-circle text-primary me-2"></i>
+                                Pembayaran via saldo
+                              </li>
+                            </ul>
+                          </div>
                           <div>
                             <br></br>
                             <p>{`Fitur Adrministrator :`}</p>
@@ -214,20 +321,20 @@ const ProductDetailsArea = () => {
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
                                 Konfigurasi Umum (Nama Web, Icon Web, Logo Web,
-                                Author, Keywords, Deskripsi, Pembayaran Saldo,
-                                Lisensi Validasi Games, Chat Id Telegram)
+                                Keywords, Deskripsi, Pembayaran Saldo, Lisensi
+                                Validasi Games, Notifikasi WhatsApp)
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi Konten
+                                Konfigurasi Konten (Banner, PopUp)
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi SMTP
+                                Konfigurasi Apigames
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi Tripay
+                                Konfigurasi VIP Reseller
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
@@ -235,8 +342,7 @@ const ProductDetailsArea = () => {
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Halaman (Cara Membeli, FAQ, Syarat &amp;
-                                Ketentuan, Bantuan)
+                                Konfigurasi Smile One
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
@@ -249,8 +355,7 @@ const ProductDetailsArea = () => {
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Kategori Produk (Data, Tambah, Edit,
-                                Hapus)
+                                Kelola Voucher Promo
                               </li>
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
@@ -272,50 +377,6 @@ const ProductDetailsArea = () => {
                               <li>
                                 <i className="fad fa-check-circle text-primary me-2"></i>
                                 Ganti Password Admin
-                              </li>
-                            </ul>
-                            <br></br>
-                            <p>{`Fitur Member :`}</p>
-                            <ul>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Login Member
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Top Up
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Cek Validasi ID
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Cek Status Pesanan
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Sistem Transaksi Otomatis
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Sistem Pembayaran Otomatis
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Edit Profile
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Isi Saldo
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Cek Riwayat Pesanan
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Ganti/Reset&nbsp;Password
                               </li>
                             </ul>
                           </div>

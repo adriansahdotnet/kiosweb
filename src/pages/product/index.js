@@ -60,14 +60,14 @@ const Product = () => {
   const handleCategory = (category) => {
     setCheckBox(category);
     const newProduct = products.filter(
-      (product) => product.category === category
+      (product) => product.category_pop === category
     );
     setFilterProducts(newProduct);
   };
   // handleTag
   const handleTag = (tag) => {
     setCheckBox(tag);
-    const newProduct = products.filter((product) => product.tag === tag);
+    const newProduct = products.filter((product) => product.tag_pop === tag);
     setFilterProducts(newProduct);
   };
 
@@ -82,143 +82,138 @@ const Product = () => {
       <BgShape />
       {/* bg shape area end */}
 
-      <section className="product__area po-rel-z1 pt-100 pb-115 grey-bg">
+      <section className="product__area po-rel-z1 pt-40 pb-115 grey-bg">
         <div className="container">
           <div className="row">
-            <div className="col-xxl-4 col-xl-4 col-lg-4 order-lg-first order-last">
-              <div className="product__sidebar mr-30">
-                <div className="product__sidebar-widget  white-bg mb-30">
-                  <div className="sidebar__widget mb-20">
-                    <form>
-                      <div className="sidebar__widget-head d-flex align-items-center justify-content-between">
-                        <h4 className="sidebar__widget-title">Category</h4>
-                        <button type="submit" className="sidebar__clear-btn">
-                          <i className="fal fa-repeat"></i>Clear
-                        </button>
+            <h3 className="mb-3 fw-bold">Kamu Mungkin Suka</h3>
+
+            <div className="col-xxl-12 col-xl-12 col-lg-12">
+              <div className="row">
+                {/* Mungkin suka 1 */}
+                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                  <div
+                    className="product__item white-bg mb-30 wow fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    <div className="product__thumb">
+                      <div className="product__thumb-inner fix w-img">
+                        <Link href="/cgames">
+                          <a>
+                            <img src="assets/img/product/qgames.png" alt="" />
+                          </a>
+                        </Link>
                       </div>
-                      <div className="sidebar__widget-content">
-                        <div className="sidebar__check-wrapper sidebar__tag">
-                          <ul>
-                            {productsCategory.map((category, index) => {
-                              return (
-                                <li
-                                  key={index}
-                                  className="d-flex justify-content-between align-items-center"
-                                >
-                                  {category !== undefined && (
-                                    <>
-                                      <div className="sidebar__check d-flex align-items-center">
-                                        <span
-                                          className="d-flex align-items-center"
-                                          onClick={() =>
-                                            handleCategory(category)
-                                          }
-                                        >
-                                          <input
-                                            className="m-check-input"
-                                            type="checkbox"
-                                            readOnly
-                                            checked={
-                                              checkbox === category
-                                                ? "checked"
-                                                : ""
-                                            }
-                                          />
-                                          <label className="m-check-label">
-                                            {" "}
-                                            {category}{" "}
-                                          </label>
-                                        </span>
-                                      </div>
-                                      {/* <span>76</span> */}
-                                    </>
-                                  )}
-                                </li>
-                              );
-                            })}
-                          </ul>
+                      <div className="product__thumb-btn transition-3"></div>
+                    </div>
+                    <div className="product__content">
+                      <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
+                        <div className="product__tag">
+                          <a href="#">Web TopUp Games</a>
+                        </div>
+                        <div className="product__price">
+                          <span>Rp 1.250.000</span>
                         </div>
                       </div>
-                    </form>
-                  </div>
-                  <div className="sidebar__widget">
-                    <form>
-                      <div className="sidebar__widget-head d-flex align-items-center justify-content-between">
-                        <h4 className="sidebar__widget-title">Tags</h4>
-                        <button type="submit" className="sidebar__clear-btn">
-                          <i className="fal fa-repeat"></i>Clear
-                        </button>
-                      </div>
-                      <div className="sidebar__widget-content">
-                        <div className="sidebar__check-wrapper sidebar__tag">
-                          <ul>
-                            {uniqueTag.map((tag, index) => {
-                              return (
-                                <li
-                                  key={index}
-                                  className="d-flex justify-content-between align-items-center"
-                                >
-                                  <div className="sidebar__check d-flex align-items-center text-capitalize">
-                                    {/* <input className="m-check-input" type="checkbox"  />
-                                    <label className="m-check-label">{tag}</label> */}
-                                    <span
-                                      className="d-flex align-items-center"
-                                      onClick={() => handleTag(tag)}
-                                    >
-                                      <input
-                                        className="m-check-input"
-                                        type="checkbox"
-                                        readOnly
-                                        checked={
-                                          checkbox === tag ? "checked" : ""
-                                        }
-                                      />
-                                      <label className="m-check-label">
-                                        {" "}
-                                        {tag}{" "}
-                                      </label>
-                                    </span>
-                                  </div>
-                                  {/* <span>28</span> */}
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
-                      </div>
-                    </form>
+                      <h3 className="product__title">
+                        <Link href="/cgames">
+                          <a>Web TopUp Games - QGames</a>
+                        </Link>
+                      </h3>
+                      <p className="product__author">
+                        by <a href="#">Kiosweb</a> in{" "}
+                        <a href="#">Jasa Website</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div
-                  className="sidebar__banner"
-                  style={{
-                    background: `url(assets/img/banner/sidebar-banner.jpg)`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                  }}
-                >
-                  <h4 className="sidebar__banner-title">
-                    Check Out <br />
-                    Our free Templates
-                  </h4>
-                  <Link href="/product">
-                    <a className="m-btn m-btn-white">
-                      {" "}
-                      <span></span> free template
-                    </a>
-                  </Link>
+                {/* Mungkin suka 2 */}
+                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                  <div
+                    className="product__item white-bg mb-30 wow fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    <div className="product__thumb">
+                      <div className="product__thumb-inner fix w-img">
+                        <Link href="/cgames">
+                          <a>
+                            <img src="assets/img/product/cgames.png" alt="" />
+                          </a>
+                        </Link>
+                      </div>
+                      <div className="product__thumb-btn transition-3"></div>
+                    </div>
+                    <div className="product__content">
+                      <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
+                        <div className="product__tag">
+                          <a href="#">Web TopUp Games</a>
+                        </div>
+                        <div className="product__price">
+                          <span>Rp 1.485.000</span>
+                        </div>
+                      </div>
+                      <h3 className="product__title">
+                        <Link href="/cgames">
+                          <a>Web TopUp Games - CGames</a>
+                        </Link>
+                      </h3>
+                      <p className="product__author">
+                        by <a href="#">Kiosweb</a> in{" "}
+                        <a href="#">Jasa Website</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Mungkin suka 1 */}
+                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                  <div
+                    className="product__item white-bg mb-30 wow fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    <div className="product__thumb">
+                      <div className="product__thumb-inner fix w-img">
+                        <Link href="/ourastore">
+                          <a>
+                            <img src="assets/img/product/oura.png" alt="" />
+                          </a>
+                        </Link>
+                      </div>
+                      <div className="product__thumb-btn transition-3"></div>
+                    </div>
+                    <div className="product__content">
+                      <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
+                        <div className="product__tag">
+                          <a href="#">Web TopUp Games</a>
+                        </div>
+                        <div className="product__price">
+                          <span>Rp 2.000.000</span>
+                        </div>
+                      </div>
+                      <h3 className="product__title">
+                        <Link href="/ourastore">
+                          <a>Web TopUp Games - Oura Store</a>
+                        </Link>
+                      </h3>
+                      <p className="product__author">
+                        by <a href="#">Kiosweb</a> in{" "}
+                        <a href="#">Jasa Website</a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div className="col-xxl-8 col-xl-8 col-lg-8">
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <h3 className="mb-3 fw-bold">Populer</h3>
+            <div className="col-xxl-12 col-xl-12 col-lg-12">
               <div className="row">
                 {currentProducts.map((item, index) => {
                   return (
                     <div
                       key={index}
-                      className="col-xxl-6 col-xl-6 col-lg-6 col-md-6"
+                      className="col-xxl-4 col-xl-4 col-lg-4 col-md-4"
                     >
                       <div
                         className="product__item white-bg mb-30 wow fadeInUp"
@@ -276,10 +271,6 @@ const Product = () => {
           </div>
         </div>
       </section>
-
-      {/* banner area start */}
-      <BannerArea />
-      {/* banner area end */}
 
       {/* cta area start */}
       <Subscribe />
