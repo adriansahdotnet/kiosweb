@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeroArea = () => {
@@ -46,14 +47,15 @@ const HeroArea = () => {
                 </h2>
                 <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
                 <div className="text-start">
+                  <Link href={"/product"}>
+                    <a style={{ cursor: "pointer " }} className="m-btn m-btn-2">
+                      <span></span> Lihat Tampilan
+                    </a>
+                  </Link>
                   <a
-                    href="/product"
-                    style={{ cursor: "pointer " }}
-                    className="m-btn m-btn-2"
+                    href="https://wa.me/6285293026542"
+                    className="m-btn m-btn-2 ms-2"
                   >
-                    <span></span> Lihat Tampilan
-                  </a>
-                  <a href="/product" className="m-btn m-btn-2 ms-2">
                     <span></span> Buat Sekarang
                   </a>
                 </div>
