@@ -45,21 +45,17 @@ const HeroArea = () => {
                   Jasa pembuatan website No #1.
                 </h2>
                 <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
-                <div className="hero__search">
-                  <form action="#">
-                    <div className="hero__search-inner d-xl-flex">
-                      <div className="hero__search-input">
-                        <span>
-                          <i className="far fa-search"></i>
-                        </span>
-                        <input type="text" placeholder="Search for templates" />
-                      </div>
-                      <button type="submit" className="m-btn ml-20">
-                        {" "}
-                        <span></span> Lihat Tampilan
-                      </button>
-                    </div>
-                  </form>
+                <div className="text-start">
+                  <a
+                    href="/product"
+                    style={{ cursor: "pointer " }}
+                    className="m-btn m-btn-2"
+                  >
+                    <span></span> Lihat Tampilan
+                  </a>
+                  <a href="/product" className="m-btn m-btn-2 ms-2">
+                    <span></span> Buat Sekarang
+                  </a>
                 </div>
               </div>
             </div>
