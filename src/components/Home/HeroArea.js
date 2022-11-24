@@ -52,12 +52,11 @@ const HeroArea = () => {
                       <span></span> Lihat Tampilan
                     </a>
                   </Link>
-                  <a
-                    href="https://wa.me/6285293026542"
-                    className="m-btn m-btn-2 ms-2"
-                  >
-                    <span></span> Buat Sekarang
-                  </a>
+                  <Link href={"https://wa.me/6285293026542"}>
+                    <a className="m-btn m-btn-2 ms-2">
+                      <span></span> Buat Sekarang
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
