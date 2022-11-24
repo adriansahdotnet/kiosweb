@@ -42,19 +42,14 @@ const HeroArea = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-8">
               <div className="hero__content">
                 <h2 className="hero__title">
-                  <span>Kiosweb.id</span> <br />
-                  Jasa pembuatan website No #1.
+                  Kiosweb.id <br />
+                  <span>Jasa pembuatan website No #1.</span>
                 </h2>
                 <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
                 <div className="text-start">
                   <Link href={"/product"}>
                     <a style={{ cursor: "pointer " }} className="m-btn m-btn-2">
                       <span></span> Lihat Tampilan
-                    </a>
-                  </Link>
-                  <Link href={"https://wa.me/6285293026542"}>
-                    <a className="m-btn m-btn-2 ms-2">
-                      <span></span> Buat Sekarang
                     </a>
                   </Link>
                 </div>
