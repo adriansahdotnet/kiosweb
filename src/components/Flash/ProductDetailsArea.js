@@ -106,6 +106,10 @@ const ProductDetailsArea = () => {
                             <div className="col-12">
                               Silahkan melakukan pembayaran melalui metode yang
                               tersedia dibawah ini sebelum 1x24 jam.
+                              <hr />
+                              semua metode pembayaran atas nama:
+                              <br />
+                              <b>Renaldi Adriansah</b>
                             </div>
                           </div>
                           <div className="text-center pt-10">

@@ -9,7 +9,7 @@ import SEO from "../../components/seo";
 const ourastore = () => {
   return (
     <>
-      <SEO pageTitle={"Q Games"} />
+      <SEO pageTitle={"Oura Store"} />
       <Header />
       <BgShape />
       <ProductTitle />
