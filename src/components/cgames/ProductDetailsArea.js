@@ -123,7 +123,7 @@ const ProductDetailsArea = () => {
                                       alt=""
                                       className="w-100"
                                     ></img>
-                                    <h6 className="mb-0">016301125281501</h6>
+                                    <h6 className="mb-0">587201023266532</h6>
                                   </td>
                                   <td
                                     className="text-center tb-metode"
