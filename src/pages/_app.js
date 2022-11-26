@@ -2,6 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import "react-responsive-modal/styles.css";
 import "./index.scss";
+import { Analytics } from "@vercel/analytics/react";
 import { store } from "../redux/store";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -38,6 +39,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <ToastContainer />
       </Provider>
+      <Analytics />
     </>
   );
 }
