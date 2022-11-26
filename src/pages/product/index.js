@@ -259,7 +259,7 @@ const Product = () => {
                         </div>
                       </div>
 
-                      {/* Mungkin suka 4*/}
+                      {/* CGames Manual */}
                       <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                         <div
                           className="product__item white-bg mb-30 wow fadeInUp"
@@ -303,7 +303,7 @@ const Product = () => {
                               </div>
                             </div>
                             <h3 className="product__title">
-                              <Link href="/ourastore">
+                              <Link href="/cgames-manual">
                                 <a>Web TopUp Games - CGames Manual</a>
                               </Link>
                             </h3>
@@ -315,7 +315,7 @@ const Product = () => {
                         </div>
                       </div>
 
-                      {/* Mungkin suka 4 */}
+                      {/* CGames v2 */}
                       <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                         <div
                           className="product__item white-bg mb-30 wow fadeInUp"
@@ -359,7 +359,7 @@ const Product = () => {
                               </div>
                             </div>
                             <h3 className="product__title">
-                              <Link href="/ourastore">
+                              <Link href="/cgames-v2">
                                 <a>Web TopUp Games - CGames-v2</a>
                               </Link>
                             </h3>
