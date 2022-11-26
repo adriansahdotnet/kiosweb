@@ -494,7 +494,7 @@ const Product = () => {
                               <Link href="/flash-media">
                                 <a>
                                   <img
-                                    src="assets/img/product/flash-media.jpg"
+                                    src="assets/img/product/flash-media.png"
                                     alt=""
                                   />
                                 </a>
