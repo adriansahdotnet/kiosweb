@@ -85,7 +85,7 @@ const Product = () => {
       <section className="product__area po-rel-z1 pt-40 pb-115 grey-bg">
         <div className="container">
           <div className="row">
-            <h3 className="mb-20 fw-bold text-center">Kamu Mungkin Suka</h3>
+            <h3 className="mb-20 fw-bold text-start">TopUp Games</h3>
 
             <div className="container">
               <div className="row">
@@ -426,117 +426,125 @@ const Product = () => {
                           </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                      {/* Mungkin suka 6 */}
-                      <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                        <div
-                          className="product__item white-bg mb-30 wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          <div className="product__thumb">
-                            <div className="product__thumb-inner fix w-img">
-                              <Link href="/smm">
-                                <a>
-                                  <img
-                                    src="assets/img/product/smm.png"
-                                    alt=""
-                                  />
-                                </a>
-                              </Link>
-                            </div>
-                            <div className="product__thumb-btn transition-3">
-                              <a
-                                href="https://wa.me/6285293026542"
-                                className="m-btn m-btn-6"
-                                style={{ cursor: "pointer" }}
-                              >
-                                Detail Fitur
-                              </a>
-                              <a
-                                href="https://wa.me/6285293026542"
-                                className="m-btn m-btn-7 mt-2"
-                              >
-                                Lihat Preview
-                              </a>
-                            </div>
-                            <div className="product__thumb-btn transition-3"></div>
-                          </div>
-                          <div className="product__content">
-                            <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
-                              <div className="product__tag">
-                                <a href="#">Web SMM Panel</a>
-                              </div>
-                              <div className="product__price">
-                                <span>Rp 950.000</span>
-                              </div>
-                            </div>
-                            <h3 className="product__title">
-                              <Link href="/product-details">
-                                <a>Web SMM Panel - Purple Panel</a>
-                              </Link>
-                            </h3>
-                            <p className="product__author">
-                              by <a href="#">Kiosweb</a> in{" "}
-                              <a href="#">Jasa Website</a>
-                            </p>
-                          </div>
+          {/* Row Web Lainnya */}
+
+          <div className="row">
+            <h3 className="mb-20 fw-bold text-start mt-40">Website Lainnya</h3>
+            <div className="d-flex justify-content-start col-12">
+              <div className="col-12 d-flex">
+                <div className="row">
+                  {/* SMM Panel */}
+                  <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                    <div
+                      className="product__item white-bg mb-30 wow fadeInUp"
+                      data-wow-delay=".3s"
+                    >
+                      <div className="product__thumb">
+                        <div className="product__thumb-inner fix w-img">
+                          <Link href="/smm">
+                            <a>
+                              <img src="assets/img/product/smm.png" alt="" />
+                            </a>
+                          </Link>
                         </div>
+                        <div className="product__thumb-btn transition-3">
+                          <a
+                            href="https://wa.me/6285293026542"
+                            className="m-btn m-btn-6"
+                            style={{ cursor: "pointer" }}
+                          >
+                            Detail Fitur
+                          </a>
+                          <a
+                            href="https://wa.me/6285293026542"
+                            className="m-btn m-btn-7 mt-2"
+                          >
+                            Lihat Preview
+                          </a>
+                        </div>
+                        <div className="product__thumb-btn transition-3"></div>
                       </div>
-
-                      {/* Mungkin suka 7 */}
-                      <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                        <div
-                          className="product__item white-bg mb-30 wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          <div className="product__thumb">
-                            <div className="product__thumb-inner fix w-img">
-                              <Link href="/flash-media">
-                                <a>
-                                  <img
-                                    src="assets/img/product/flash-media.png"
-                                    alt=""
-                                  />
-                                </a>
-                              </Link>
-                            </div>
-                            <div className="product__thumb-btn transition-3">
-                              <a
-                                href="https://kiosweb.id/flash-media"
-                                className="m-btn m-btn-6"
-                                style={{ cursor: "pointer" }}
-                              >
-                                Detail Fitur
-                              </a>
-                              <a
-                                href="https://demo.kiosweb.id/flash-media"
-                                className="m-btn m-btn-7 mt-2"
-                              >
-                                Lihat Preview
-                              </a>
-                            </div>
-                            <div className="product__thumb-btn transition-3"></div>
+                      <div className="product__content">
+                        <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
+                          <div className="product__tag">
+                            <a href="#">Web SMM Panel</a>
                           </div>
-                          <div className="product__content">
-                            <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
-                              <div className="product__tag">
-                                <a href="#">Web Berita</a>
-                              </div>
-                              <div className="product__price">
-                                <span>Rp 550.000</span>
-                              </div>
-                            </div>
-                            <h3 className="product__title">
-                              <Link href="/flash-media">
-                                <a>Web Berita - Flash Media</a>
-                              </Link>
-                            </h3>
-                            <p className="product__author">
-                              by <a href="#">Kiosweb</a> in{" "}
-                              <a href="#">Jasa Website</a>
-                            </p>
+                          <div className="product__price">
+                            <span>Rp 950.000</span>
                           </div>
                         </div>
+                        <h3 className="product__title">
+                          <Link href="/product-details">
+                            <a>Web SMM Panel - Purple Panel</a>
+                          </Link>
+                        </h3>
+                        <p className="product__author">
+                          by <a href="#">Kiosweb</a> in{" "}
+                          <a href="#">Jasa Website</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Flash Media */}
+                  <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                    <div
+                      className="product__item white-bg mb-30 wow fadeInUp"
+                      data-wow-delay=".3s"
+                    >
+                      <div className="product__thumb">
+                        <div className="product__thumb-inner fix w-img">
+                          <Link href="/flash-media">
+                            <a>
+                              <img
+                                src="assets/img/product/flash-media.png"
+                                alt=""
+                              />
+                            </a>
+                          </Link>
+                        </div>
+                        <div className="product__thumb-btn transition-3">
+                          <a
+                            href="https://kiosweb.id/flash-media"
+                            className="m-btn m-btn-6"
+                            style={{ cursor: "pointer" }}
+                          >
+                            Detail Fitur
+                          </a>
+                          <a
+                            href="https://demo.kiosweb.id/flash-media"
+                            className="m-btn m-btn-7 mt-2"
+                          >
+                            Lihat Preview
+                          </a>
+                        </div>
+                        <div className="product__thumb-btn transition-3"></div>
+                      </div>
+                      <div className="product__content">
+                        <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
+                          <div className="product__tag">
+                            <a href="#">Web Berita</a>
+                          </div>
+                          <div className="product__price">
+                            <span>Rp 550.000</span>
+                          </div>
+                        </div>
+                        <h3 className="product__title">
+                          <Link href="/flash-media">
+                            <a>Web Berita - Flash Media</a>
+                          </Link>
+                        </h3>
+                        <p className="product__author">
+                          by <a href="#">Kiosweb</a> in{" "}
+                          <a href="#">Jasa Website</a>
+                        </p>
                       </div>
                     </div>
                   </div>
