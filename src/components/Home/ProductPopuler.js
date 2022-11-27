@@ -82,7 +82,10 @@ const ProductPopuler = () => {
             >
               {productPopulerData.map((ProductPopuler, index) => {
                 return (
-                  <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 d-flex">
+                  <div
+                    key={index}
+                    className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 d-flex"
+                  >
                     <div
                       className="product__item white-bg mb-30 wow fadeInUp"
                       data-wow-delay=".3s"
