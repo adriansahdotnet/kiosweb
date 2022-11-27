@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Table } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { addToProduct } from "../../redux/features/productSlice";
 
@@ -136,6 +137,66 @@ const ProductDetailsArea = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Table Sewa */}
+                <div className="row justify-content-center">
+                  <div className="col-xxl-12 col-xl-12 col-lg-12">
+                    <h3 className="mb-20 fw-bold text-start">Paket Sewa :</h3>
+                    <Table striped>
+                      <tbody>
+                        <tr>
+                          <td>1 Bulan</td>
+                          <td className="text-center">Rp 600.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/3ec9b6"
+                              className="m-btn m-btn-5"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3 Bulan</td>
+                          <td className="text-center">Rp 800.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/3ec9b6"
+                              className="m-btn m-btn-5 h-10"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>6 Bulan</td>
+                          <td className="text-center">Rp 1.000.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/3ec9b6"
+                              className="m-btn m-btn-5 h-10"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>12 Bulan</td>
+                          <td className="text-center">Rp 1.500.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/3ec9b6"
+                              className="m-btn m-btn-5 h-10"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                  </div>
+                </div>
+
                 <div className="product__details-content">
                   <div className="product__tab mb-40">
                     <ul className="nav nav-tabs" id="proTab" role="tablist">

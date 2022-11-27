@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Table } from "react-bootstrap";
 import { addToProduct } from "../../redux/features/productSlice";
 
 const ProductDetailsArea = () => {
@@ -172,6 +173,67 @@ const ProductDetailsArea = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Table Sewa */}
+                <div className="row justify-content-center">
+                  <div className="col-xxl-12 col-xl-12 col-lg-12">
+                    <h3 className="mb-20 fw-bold text-start">Paket Sewa :</h3>
+                    <Table striped>
+                      <tbody>
+                        <tr>
+                          <td>1 Bulan</td>
+                          <td className="text-center">Rp 400.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/5d09e1"
+                              className="m-btn m-btn-5"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3 Bulan</td>
+                          <td className="text-center">Rp 500.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/1391e3"
+                              className="m-btn m-btn-5 h-10"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>6 Bulan</td>
+                          <td className="text-center">Rp 750.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/44faf9"
+                              className="m-btn m-btn-5 h-10"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>12 Bulan</td>
+                          <td className="text-center">Rp 1.200.000</td>
+                          <td className="text-end">
+                            <a
+                              href="https://wa.wizard.id/349dd1"
+                              className="m-btn m-btn-5 h-10"
+                            >
+                              Order
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                  </div>
+                </div>
+
+                {/* Deskripsi */}
                 <div className="product__details-content">
                   <div className="product__tab mb-40">
                     <ul className="nav nav-tabs" id="proTab" role="tablist">
@@ -257,6 +319,10 @@ const ProductDetailsArea = () => {
                             <li>
                               <i className="fad fa-check-circle text-primary me-2"></i>
                               Auto Update Status
+                            </li>
+                            <li>
+                              <i className="fad fa-check-circle text-primary me-2"></i>
+                              Notifikasi WhatsApp
                             </li>
                           </ul>
                           <div>

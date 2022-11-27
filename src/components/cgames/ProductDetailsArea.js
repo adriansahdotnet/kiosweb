@@ -179,7 +179,6 @@ const ProductDetailsArea = () => {
                 </div>
 
                 {/* Table Sewa */}
-
                 <div className="row justify-content-center">
                   <div className="col-xxl-12 col-xl-12 col-lg-12">
                     <h3 className="mb-20 fw-bold text-start">Paket Sewa :</h3>
@@ -187,7 +186,7 @@ const ProductDetailsArea = () => {
                       <tbody>
                         <tr>
                           <td>1 Bulan</td>
-                          <td className="text-center">Rp 250.000</td>
+                          <td className="text-center">Rp 300.000</td>
                           <td className="text-end">
                             <a
                               href="https://wa.wizard.id/1242a3"
@@ -238,6 +237,7 @@ const ProductDetailsArea = () => {
                   </div>
                 </div>
 
+                {/* Deskripsi */}
                 <div className="product__details-content">
                   <div className="product__tab mb-40">
                     <ul className="nav nav-tabs" id="proTab" role="tablist">

@@ -46,7 +46,7 @@ const HeroArea = () => {
                   <span>Jasa pembuatan website No #1.</span>
                 </h2>
                 <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
-                <a href="https://kiosweb.id/product">
+                <a href="/product">
                   <a className="m-btn m-btn-2 ml-5 mb-3">Lihat Tampilan</a>
                   <a
                     href="https://wa.me/6285293026542"

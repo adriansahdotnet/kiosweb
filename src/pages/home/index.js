@@ -3,6 +3,7 @@ import BannerArea from "../../components/Home/BannerArea";
 import BrandArea from "../../components/Home/BrandArea";
 import CategoryArea from "../../components/Home/CategoryArea";
 import Cta from "../../components/Home/Cta";
+import BgShape from "../../components/common/BgShape";
 import Footer from "../../components/Home/Footer";
 import Header from "../../components/Home/Header";
 import HeroArea from "../../components/Home/HeroArea";
@@ -17,6 +18,7 @@ export default function Home() {
     <>
       <SEO pageTitle={"Kios Web"} />
       <Header />
+      <BgShape />
       <HeroArea />
       <CategoryArea />
       <TrendingLandmark />
