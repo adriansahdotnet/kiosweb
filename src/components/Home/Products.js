@@ -1,7 +1,67 @@
 import Link from "next/link";
 import React from "react";
+import Slider from "react-slick";
 import { useSelector } from "react-redux";
 import SingleProduct from "./SingleProduct";
+
+const ProductsPopuler = [
+  {
+    id: "1",
+    img: "assets/img/product/qgames.png",
+    title: "Web Topup Games - QGames",
+    title_pop: "Web Topup Games - QGames",
+    category: "Web Topup Games",
+    price: "1.250.000",
+  },
+  {
+    id: "2",
+    img: "assets/img/product/cgames.png",
+    title: "Web Topup Games - CGames",
+    title_pop: "Web Topup Games - CGames",
+    category: "Web Topup Games",
+    price: "1.485.000",
+  },
+  {
+    id: "3",
+    img: "assets/img/product/oura.png",
+    title: "Web TopUp Games - Oura Store",
+    category: "Web Topup Games",
+    price: "2.000.000",
+  },
+];
+
+// slick setting
+const settings = {
+  dots: true,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        initialSlide: 2,
+      },
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
 
 const Products = () => {
   const products = useSelector((state) => state.products.products);

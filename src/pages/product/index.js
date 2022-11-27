@@ -9,6 +9,7 @@ import Header from "../../components/Home/Header";
 import Subscribe from "../../components/Home/Subscribe";
 import Products from "../../components/Product/ProductTrending";
 import SEO from "../../components/seo";
+import ProductPopuler from "../../components/Home/ProductPopuler";
 import { addToProduct, specificItem } from "../../redux/features/productSlice";
 
 const Product = () => {
@@ -81,6 +82,9 @@ const Product = () => {
       {/*  bg shape area start  */}
       <BgShape />
       {/* bg shape area end */}
+
+      {/* Produk Populer */}
+      <ProductPopuler />
 
       <section className="product__area po-rel-z1 pt-40 pb-115 grey-bg">
         <div className="container">

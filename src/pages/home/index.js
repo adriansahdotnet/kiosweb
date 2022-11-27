@@ -21,7 +21,7 @@ export default function Home() {
       <BgShape />
       <HeroArea />
       <CategoryArea />
-      <TrendingLandmark />
+      <Products />
       <Subscribe />
       <Testimonial />
       <BannerArea />
