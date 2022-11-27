@@ -6,8 +6,8 @@ const ProductPopuler = () => {
     {
       id: "1",
       img: "assets/img/product/oura.png",
-      demo: "https://demo.kiosweb.id/ourastore",
       link: "/ourastore",
+      demo: "https://demo.kiosweb.id/ourastore",
       title: "Web TopUp Games - Oura Store",
       category: "Web Topup",
       price: "2.000.000",
@@ -72,7 +72,7 @@ const ProductPopuler = () => {
         <div className="container">
           <div className="testimonial__inner p-relative">
             <div className="row">
-              <h3 className="mb-20 fw-bold text-start">Produk Populer</h3>
+              <h3 className="mb-20 fw-bold text-start">TopUp Games</h3>
               <div className="col-xxl-12">
                 <Slider
                   {...settings}
@@ -91,7 +91,7 @@ const ProductPopuler = () => {
                         >
                           <div className="product__thumb">
                             <div className="product__thumb-inner fix w-img">
-                              <Link href="/qgames">
+                              <Link href={ProductPopuler.link}>
                                 <a>
                                   <img src={ProductPopuler.img} alt="" />
                                 </a>
@@ -99,14 +99,14 @@ const ProductPopuler = () => {
                             </div>
                             <div className="product__thumb-btn transition-3">
                               <a
-                                href="/product"
+                                href={ProductPopuler.link}
                                 className="m-btn m-btn-6"
                                 style={{ cursor: "pointer" }}
                               >
                                 Detail Fitur
                               </a>
                               <a
-                                href="https://demo.kiosweb.id/qgames"
+                                href={ProductPopuler.demo}
                                 className="m-btn m-btn-7 mt-2"
                               >
                                 Lihat Preview
@@ -124,7 +124,7 @@ const ProductPopuler = () => {
                               </div>
                             </div>
                             <h3 className="product__title">
-                              <Link href="/qgames">
+                              <Link href={ProductPopuler.link}>
                                 <a>{ProductPopuler.title}</a>
                               </Link>
                             </h3>
