@@ -47,11 +47,25 @@ const HeroArea = () => {
                 </h2>
                 <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
                 <div className="text-start">
-                  <Link href={"/product"}>
-                    <a style={{ cursor: "pointer " }} className="m-btn m-btn-2">
-                      <span></span> Lihat Tampilan
-                    </a>
-                  </Link>
+                  <div href={"/product"}>
+                    <span>
+                      <a
+                        style={{ cursor: "pointer " }}
+                        className="m-btn m-btn-2"
+                      >
+                        <span>Lihat Tampilan</span>
+                      </a>
+                    </span>
+                    <span>
+                      <a
+                        href="https://wa.me/6285293026542"
+                        style={{ cursor: "pointer " }}
+                        className="m-btn m-btn-2 ms-2 "
+                      >
+                        <span>Sewa Website</span>
+                      </a>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
