@@ -72,7 +72,7 @@ const ProductPopuler = () => {
         <div className="container">
           <div className="testimonial__inner p-relative">
             <div className="row">
-              <h3 className="mb-20 fw-bold text-start">TopUp Games</h3>
+              <h3 className="mb-20 fw-bold text-start">Produk Populer</h3>
               <div className="col-xxl-12">
                 <Slider
                   {...settings}
