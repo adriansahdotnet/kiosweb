@@ -146,7 +146,7 @@ const Product = () => {
                                   onClick={() => handleProducDetails(item.id)}
                                   className="product__title"
                                 >
-                                  <Link href="/product-details">
+                                  <Link href={item?.link}>
                                     <a>{item?.title}</a>
                                   </Link>
                                 </h3>
