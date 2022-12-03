@@ -320,10 +320,6 @@ const ProductDetailsArea = () => {
                               <i className="fad fa-check-circle text-primary me-2"></i>
                               Auto Update Status
                             </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Notifikasi WhatsApp
-                            </li>
                           </ul>
                           <div>
                             <br></br>
