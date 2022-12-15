@@ -87,7 +87,7 @@ const Header = () => {
                         <i className="fal fa-sign-out-alt"></i> Logout
                       </a>
                     ) : (
-                      <Link href="/login">
+                      <Link href="https://api.kiosweb.id">
                         <a>
                           {" "}
                           <i className="far fa-unlock"></i> Masuk
