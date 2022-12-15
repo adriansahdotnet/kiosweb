@@ -23,7 +23,11 @@ const SidebarMenu = ({ show, handleClose }) => {
             <div className="logo">
               <Link href="/home">
                 <a>
-                  <img src="assets/img/logo/logo-white.png" alt="logo" />
+                  <img
+                    src="assets/img/logo/logo-white.png"
+                    alt="logo"
+                    width={"150px"}
+                  />
                 </a>
               </Link>
             </div>
@@ -79,21 +83,13 @@ const SidebarMenu = ({ show, handleClose }) => {
                           <i className="fal fa-sign-out-alt"></i> Log Out
                         </a>
                       ) : (
-                        <Link href="/login">
+                        <Link href="https://api.kiosweb.id">
                           <a>
                             {" "}
-                            <i className="far fa-unlock"></i> Log In
+                            <i className="far fa-unlock"></i> Masuk
                           </a>
                         </Link>
                       )}
-                    </div>
-                    <div className="sidebar__cart mt-20">
-                      <Link href="/cart">
-                        <a className="cart-toggle-btn">
-                          <i className="far fa-shopping-cart"></i>
-                          <span>{totalCartQuantity}</span>
-                        </a>
-                      </Link>
                     </div>
                   </div>
                 </div>
