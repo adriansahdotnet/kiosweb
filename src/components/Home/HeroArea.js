@@ -49,12 +49,6 @@ const HeroArea = () => {
                 <Link href={"/product"}>
                   <a className="m-btn m-btn-2 ml-5 mb-3">Lihat Tampilan</a>
                 </Link>
-                <a
-                  href="https://wa.me/6285293026542"
-                  className="m-btn m-btn-2 ml-5 mb-3"
-                >
-                  Sewa Website
-                </a>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
