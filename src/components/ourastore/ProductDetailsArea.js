@@ -236,7 +236,7 @@ const ProductDetailsArea = () => {
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
-                            Check Username Games (Support 19 games)
+                            Check Validasi ID (Support 19 games)
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
