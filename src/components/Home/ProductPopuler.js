@@ -68,11 +68,11 @@ const ProductPopuler = () => {
   };
   return (
     <>
-      <div className="testimonial__area pt-50 pb-115 fix">
+      <div className="testimonial__area pt-50 pb-115">
         <div className="container">
           <div className="testimonial__inner p-relative">
             <div className="row">
-              <h3 className="mb-20 fw-bold text-start">Produk Populer</h3>
+              <h3 className="mb-20 fw-bold text-center">Produk Populer</h3>
               <div className="justify-content-start col-12">
                 <div className="col-12">
                   <Slider
@@ -84,7 +84,7 @@ const ProductPopuler = () => {
                       return (
                         <div
                           key={index}
-                          className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 d-flex"
+                          className="col-xxl-4 col-xl-4 col-lg-4 col-md-4"
                         >
                           <div
                             className="product__item white-bg mb-30 wow fadeInUp"

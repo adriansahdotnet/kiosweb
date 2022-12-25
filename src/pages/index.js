@@ -9,8 +9,8 @@ import HeroArea from "../components/Home/HeroArea";
 import Products from "../components/Home/Products";
 import Subscribe from "../components/Home/Subscribe";
 import Testimonial from "../components/Home/Testimonial";
-import TrendingLandmark from "../components/Home/TrendingLandmark";
 import SEO from "../components/seo";
+import Keuntungan from "../components/Home/Keuntungan";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <Products />
       <CategoryArea />
       <Subscribe />
-      <TrendingLandmark />
+      <Keuntungan />
       <Testimonial />
       <BannerArea />
       <Footer />

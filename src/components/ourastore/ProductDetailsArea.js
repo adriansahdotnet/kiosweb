@@ -344,7 +344,7 @@ const ProductDetailsArea = () => {
                     </Accordion.Item>
                     <br></br>
                     <Accordion.Item eventKey="3">
-                      <Accordion.Header>Fitur Adrministrator</Accordion.Header>
+                      <Accordion.Header>Fitur Administrator</Accordion.Header>
                       <Accordion.Body>
                         <ul>
                           <li>

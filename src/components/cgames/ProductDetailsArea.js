@@ -62,7 +62,7 @@ const ProductDetailsArea = () => {
                       </a>
                     </span>
                     <a
-                      href="https://demo.kiosweb.id/cgames/"
+                      href="https://cgames.kiosweb.id/"
                       rel="noreferrer"
                       target="_blank"
                       className="m-btn m-btn-border w-100"
@@ -344,7 +344,7 @@ const ProductDetailsArea = () => {
                     </Accordion.Item>
                     <br></br>
                     <Accordion.Item eventKey="3">
-                      <Accordion.Header>Fitur Adrministrator</Accordion.Header>
+                      <Accordion.Header>Fitur Administrator</Accordion.Header>
                       <Accordion.Body>
                         <ul>
                           <li>

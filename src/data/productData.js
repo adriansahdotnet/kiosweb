@@ -13,10 +13,10 @@ const productData = [
     id: "2",
     img: "assets/img/product/cgames.png",
     link: "/cgames",
-    demo: "https://demo.kiosweb.id/cgames",
+    demo: "https://cgames.kiosweb.id",
     title: "Web Topup Games - C Games",
     category: "Web Topup",
-    price: "1.485.000",
+    price: "1.500.000",
     tag: "Integrasi ApiGames & VIP Reseller",
   },
   {
