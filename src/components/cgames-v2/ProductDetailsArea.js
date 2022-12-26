@@ -3,6 +3,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Table } from "react-bootstrap";
 import { addToProduct } from "../../redux/features/productSlice";
+import Accordion from "react-bootstrap/Accordion";
 
 const ProductDetailsArea = () => {
   // all products
@@ -22,7 +23,7 @@ const ProductDetailsArea = () => {
               <div className="product__wrapper">
                 <div className="product__details-thumb w-img mb-30">
                   <img
-                    src="assets/img/product/cgames-v2.png"
+                    src="assets/img/product/cgames.png"
                     alt="product-details"
                   />
                 </div>
@@ -39,7 +40,7 @@ const ProductDetailsArea = () => {
                       <div className="product__proprietor-price">
                         <span className="d-flex align-items-start">
                           <span>Rp </span>
-                          1.750.000
+                          2.000.000
                         </span>
                       </div>
                     </div>
@@ -57,7 +58,7 @@ const ProductDetailsArea = () => {
                       </a>
                     </span>
                     <a
-                      href="https://demo.kiosweb.id/cgames/"
+                      href="https://cgames.kiosweb.id/"
                       rel="noreferrer"
                       target="_blank"
                       className="m-btn m-btn-border w-100"
@@ -100,7 +101,7 @@ const ProductDetailsArea = () => {
                                 <tr>
                                   <th scope="row">1</th>
                                   <td>Web TopUp Games - CGames V2</td>
-                                  <td>Rp. 1.750.000</td>
+                                  <td>Rp. 2.000.000</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -181,32 +182,8 @@ const ProductDetailsArea = () => {
                     <Table striped>
                       <tbody>
                         <tr>
-                          <td>1 Bulan</td>
-                          <td className="text-center">Rp 400.000</td>
-                          <td className="text-end">
-                            <a
-                              href="https://wa.wizard.id/5d09e1"
-                              className="m-btn m-btn-5"
-                            >
-                              Order
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3 Bulan</td>
-                          <td className="text-center">Rp 500.000</td>
-                          <td className="text-end">
-                            <a
-                              href="https://wa.wizard.id/1391e3"
-                              className="m-btn m-btn-5 h-10"
-                            >
-                              Order
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
                           <td>6 Bulan</td>
-                          <td className="text-center">Rp 750.000</td>
+                          <td className="text-center">Rp 850.000</td>
                           <td className="text-end">
                             <a
                               href="https://wa.wizard.id/44faf9"
@@ -218,7 +195,7 @@ const ProductDetailsArea = () => {
                         </tr>
                         <tr>
                           <td>12 Bulan</td>
-                          <td className="text-center">Rp 1.200.000</td>
+                          <td className="text-center">Rp 1.500.000</td>
                           <td className="text-end">
                             <a
                               href="https://wa.wizard.id/349dd1"
@@ -248,231 +225,286 @@ const ProductDetailsArea = () => {
                           aria-controls="overview"
                           aria-selected="true"
                         >
-                          Deskripsi
+                          Detail Fitur
                         </button>
                       </li>
                     </ul>
                   </div>
-                  <div className="product__tab-content">
-                    <div className="tab-content" id="proTabContent">
-                      <div
-                        className="tab-pane fade show active"
-                        id="overview"
-                        role="tabpanel"
-                        aria-labelledby="overview-tab"
-                      >
-                        <div className="product__overview">
-                          <p>{`Fitur Utama :`}</p>
-                          <ul>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Login Admin
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Login Member
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Daftar Otomatis
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Level User (Super Admin, Admin, Member)
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Transaksi Tanpa Login (Guest Transaction)
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Transaksi Member
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Home/Dashboard
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Cek Pesanan
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Daftar Harga
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Metode Pembayaran
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Validasi ID Games (19 Games)
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Sistem Transaksi Otomatis
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Sistem Pembayaran Otomatis
-                            </li>
-                            <li>
-                              <i className="fad fa-check-circle text-primary me-2"></i>
-                              Auto Update Status
-                            </li>
-                          </ul>
-                          <div>
-                            <br></br>
-                            <p>{`Fitur Adrministrator :`}</p>
-                            <ul>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Login Admin
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi (Nama Web, Judul, Edit Logo,
-                                Keywords, &amp; Deskripsi)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi Banner (Data, Tambah, Hapus)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi DigiFlazz
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi ApiGames
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi Tripay
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Konfigurasi Sosial Media
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Syarat &amp; Ketentuan
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Admin (Data, Tambah, Edit, Hapus, Reset
-                                Password)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Games (Data, Tambah, Edit, Hapus)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Kategori (Data, Tambah, Edit Urutan,
-                                Hapus)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Produk (Data, Tambah, Kostum
-                                Harga,&nbsp;Edit, Hapus)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Upload Produk massal (menggunakan file excel)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Pesanan (Data, Edit, Hapus)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Topup (Data, Edit, Hapus)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Metode (Data, Tambah, Edit, Hapus)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Sosmed (WhatsApp, Instagram)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Kelola Pengguna (Data, Tambah, Edit, Hapus,
-                                Reset Password)
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Ganti Password Admin
-                              </li>
-                            </ul>
-                            <br></br>
-                            <p>{`Fitur Member :`}</p>
-                            <ul>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Login Member
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Top Up Game
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Cek Validasi ID
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Sistem Transaksi Otomatis
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Sistem Pembayaran Otomatis
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Cek Riwayat Pesanan
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Daftar Harga
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                List Metode Pembayaran
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Topup Saldo Otomatis
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Edit Data Akun
-                              </li>
-                              <li>
-                                <i className="fad fa-check-circle text-primary me-2"></i>
-                                Reset Password
-                              </li>
-                            </ul>
-                          </div>
-                          <div>
-                            <br></br>
-                            <p>{`Hubungi Admin :`}</p>
-                            <ul>
-                              <li>
-                                <a
-                                  href="https://t.me/cs_kiosweb"
-                                  className="m-btn m-btn-2"
-                                >
-                                  Telegram
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <Accordion defaultActiveKey="0">
+                    <Accordion.Item eventKey="0">
+                      <Accordion.Header>Fitur Utama</Accordion.Header>
+                      <Accordion.Body>
+                        <ul>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Login Admin
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Login Member
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Daftar Otomatis
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Level User (Super Admin, Admin, Member)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Tersedia Joki Panel
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Menggunakan 2 Payment Gateway
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Transaksi Tanpa Login (Guest Transaction)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Transaksi Member
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Home/Dashboard
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Cek Pesanan
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Daftar Harga
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Metode Pembayaran
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Validasi ID Games (Support 19 Games)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Sistem Transaksi Otomatis
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Sistem Pembayaran Otomatis
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Auto Update Status
+                          </li>
+                        </ul>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <br></br>
+                    <Accordion.Item eventKey="1">
+                      <Accordion.Header>Terintegrasi Ke</Accordion.Header>
+                      <Accordion.Body>
+                        <ul>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            DigiFlazz
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Apigames
+                          </li>
+                        </ul>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <br></br>
+                    <Accordion.Item eventKey="2">
+                      <Accordion.Header>Payment Gateway</Accordion.Header>
+                      <Accordion.Body>
+                        <ul>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Tripay
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Ipaymu
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Cekmutasi Otomatis (BRI, BCA, BNI, Mandiri, Paypal)
+                          </li>
+                        </ul>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <br></br>
+                    <Accordion.Item eventKey="3">
+                      <Accordion.Header>Fitur Administrator</Accordion.Header>
+                      <Accordion.Body>
+                        <ul>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Login Admin
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi (Nama Web, Judul, Edit Logo, Keywords,
+                            &amp; Deskripsi)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi Banner (Data, Tambah, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi DigiFlazz
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi ApiGames
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi Tripay
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi Ipaymu
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Cekmutasi.co.id
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi Sosial Media
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi Button CS
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Syarat &amp; Ketentuan
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Admin (Data, Tambah, Edit, Hapus, Reset
+                            Password)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Games (Data, Tambah, Edit, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Kategori (Data, Tambah, Edit Urutan, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Produk (Data, Tambah, Import, Kostum
+                            Harga,&nbsp;Edit, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Import Produk Menggunakan Format Excel (xmls)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Pesanan (Data, Edit, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Pesanan (Ekspor Data pesanan pelanggan)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Topup (Data, Edit, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Metode (Data, Tambah, Edit, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola Pengguna (Data, Tambah, Edit, Hapus, Reset
+                            Password)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Ganti Password Admin
+                          </li>
+                        </ul>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <br></br>
+                    <Accordion.Item eventKey="4">
+                      <Accordion.Header>Fitur Member</Accordion.Header>
+                      <Accordion.Body>
+                        <ul>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Login Member
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Top Up Game
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Cek Validasi ID
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Sistem Transaksi Otomatis
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Sistem Pembayaran Otomatis
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Cek Riwayat Pesanan
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Daftar Harga
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            List Metode Pembayaran
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Topup Saldo Otomatis
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Edit Data Akun
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Reset Password
+                          </li>
+                        </ul>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <br></br>
+                  </Accordion>
+                  <div className="text-center">
+                    <br></br>
+                    <p>{`Hubungi Admin :`}</p>
+                    <ul>
+                      <li>
+                        <a
+                          href="https://wa.me/6285293026542"
+                          className="m-btn m-btn-2"
+                        >
+                          WhatsApp
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
