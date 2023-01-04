@@ -41,12 +41,12 @@ const productData = [
   },
   {
     id: "5",
-    img: "assets/img/product/cgames-v2.png",
+    img: "assets/img/product/cgames.png",
     link: "/cgames-v2",
     demo: "https://demo.kiosweb.id/cgames",
     title: "Web Topup Games - C Games V2",
     category: "Web Topup",
-    price: "1.750.000",
+    price: "2.000.000",
     tag: "Topup Manual",
   },
   {

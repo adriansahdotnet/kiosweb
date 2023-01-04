@@ -186,30 +186,6 @@ const ProductDetailsArea = () => {
                     <Table striped>
                       <tbody>
                         <tr>
-                          <td>1 Bulan</td>
-                          <td className="text-center">Rp 300.000</td>
-                          <td className="text-end">
-                            <a
-                              href="https://wa.wizard.id/1242a3"
-                              className="m-btn m-btn-5"
-                            >
-                              Order
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3 Bulan</td>
-                          <td className="text-center">Rp 400.000</td>
-                          <td className="text-end">
-                            <a
-                              href="https://wa.wizard.id/f8592f"
-                              className="m-btn m-btn-5 h-10"
-                            >
-                              Order
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
                           <td>6 Bulan</td>
                           <td className="text-center">Rp 500.000</td>
                           <td className="text-end">

@@ -28,6 +28,12 @@ const ContactArea = () => {
                   Punya pertanyaan, kritik atau saran bisa disampaikan pada form
                   dibawah.
                 </p>
+                <div className="alert alert-success" role="alert">
+                  Pastikan No CS hanya{" "}
+                  <a href="https://wa.me/6285641249270">
+                    <b>0856 4124 9270</b>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -57,7 +63,7 @@ const ContactArea = () => {
                           <div className="contact__input">
                             <input
                               required
-                              type="text"
+                              type="number"
                               placeholder="WhatsApp"
                               name="email"
                             />
