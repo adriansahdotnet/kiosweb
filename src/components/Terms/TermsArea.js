@@ -79,16 +79,14 @@ const TermsArea = () => {
                     <p>
                       Perjanjian ini dibuat{" "}
                       <span className="highlight">
-                        <Link href="/about">
-                          <a>sedemikian rupa</a>
-                        </Link>
+                        <a>sedemikian rupa</a>
                       </span>{" "}
                       demi kepentingan antar pihak, juga demi keamanan dan
                       kenyamanan Customer dalam menggunakan produk/layanan
                       Kiosweb.id. Perjanjian ini juga telah dilampirkan pada
                       Form Pemesanan Kios Web dan harus disetujui oleh Customer.
                       Dokumen ini dapat berubah sewaktu-waktu jika ada situasi
-                      atau keadaan yang mengharusakan pihak Kios Web untuk
+                      atau keadaan yang mengharusakan pihak Kiosweb untuk
                       memperbarui isi dokumen ini.
                     </p>
                     <p>
@@ -97,30 +95,84 @@ const TermsArea = () => {
                     </p>
 
                     <br></br>
+
+                    <div className="postbox__details mb-30">
+                      <h4>Ketentuan Umum</h4>
+                      <p>
+                        1. Kesalahan dalam pengisian data indentitas atau
+                        kepemilikikan website terlepas dari tanggung jawab
+                        kiosweb.{" "}
+                      </p>
+
+                      <p>
+                        2. kiosweb tidak bertanggung jawab apabila website yang
+                        sudah di pesan ternyata sudah dimiliki oleh orang lain.{" "}
+                      </p>
+
+                      <p>
+                        3. Pembelian setiap produk atau layanan pihak kiosweb
+                        berhak untuk{" "}
+                        <span className="highlight">
+                          tidak memberikan akses kedalam Cloud Server
+                        </span>
+                        dengan alasan kemanan Server.{" "}
+                      </p>
+
+                      <p>
+                        4. kiosweb tidak berhak untuk{" "}
+                        <span className="highlight">
+                          {" "}
+                          memberikan File atau Source Code
+                        </span>{" "}
+                        secara langsung, melain melalui instalasi langsung ke
+                        server yang dilakukan oleh tim kiosweb.{" "}
+                      </p>
+
+                      <p>
+                        5. Pembelian produk website hanya berlaku untuk 1 domain
+                        yang didaftarkan, aktifitas duplikat atau clone
+                        diilegalkan dan akan dikenakan sanksi sesuai
+                        Undang-Undang Nomor 28 Tahun 2014 tentang Hak Cipta.
+                      </p>
+
+                      <p>
+                        6. Pembelian produk website dengan Cloud Server mandiri
+                        (milik sendiri), kemanan terhadap server terlepas dari
+                        tanggung jawab kiosweb.
+                      </p>
+
+                      <p>
+                        7. Website atau Produk kiosweb yang dijadikan alat
+                        penipuan sepenuhnya bukan tanggung jawab kiosweb, dan
+                        pihak kiosweb berhak untuk mengsuspend{" "}
+                        <span className="highlight"> (menonaktifkan) </span>
+                        website atau produk tersebut.
+                      </p>
+                    </div>
+
                     <div className="postbox__details mb-30">
                       <h4>Kewajiban Customers</h4>
                       <p>
-                        Mentaati peraturan dan ketentuan yang telah berlaku dan
-                        akan berlaku di Kiosweb.id.
+                        1. Mentaati peraturan dan ketentuan yang telah berlaku
+                        dan akan berlaku di Kiosweb.id.
                       </p>
-                      <p>Menggunakan Identitas Asli dan masih berlaku.</p>
+                      <p>2. Menggunakan Identitas Asli dan masih berlaku.</p>
                       <p>
-                        Mendaftarkan alamat e-mail yang masih berfungsi karenan
-                        nantinya alamat email tersebut akan digunakan untuk
-                        mengirimkan informasi account Anda, penagihan,
+                        3. Mendaftarkan alamat e-mail yang masih berfungsi
+                        karenan nantinya alamat email tersebut akan digunakan
+                        untuk mengirimkan informasi account Anda, penagihan,
                         pengumuman dan pemberitahuan lainnya. Apabila Customer
                         ingin mengganti alamat emailnya, Customer diwajibkan
-                        untuk meng-update alamat emailnya sendiri di menu
-                        Profile.
+                        untuk meng-update alamat emailnya sendiri melalui cs.
                       </p>
                       <p>
-                        Membayar tagihan tepat waktu atas service atau layanan
-                        yang Customer pesan selambat-lambatnya pada jatuh tempo
-                        atau due-date yang tertera pada invoice.
+                        4. Membayar tagihan tepat waktu atas service atau
+                        layanan yang Customer pesan selambat-lambatnya pada
+                        jatuh tempo atau due-date yang tertera pada invoice.
                       </p>
                       <p>
-                        Membayar sesuai dengan harga yang telah ditetapkan oleh
-                        pihak Kiosweb.id seperti yang tertera didalam Bukti
+                        5. Membayar sesuai dengan harga yang telah ditetapkan
+                        oleh pihak Kiosweb.id seperti yang tertera didalam Bukti
                         Invoice, dsb. Jika kemudian ditemukan Customer
                         Kiosweb.id tidak melakukan pembayaran sesuai invoice dan
                         tidak melakukan konfirmasi pembayaran namun pembayaran
@@ -130,30 +182,31 @@ const TermsArea = () => {
                         apapun.
                       </p>
                       <p>
-                        Mematuhi semua peraturan atau instruksi yang diberikan
-                        oleh Kiosweb.id setiap waktu yang berhubungan dengan
-                        penggunaan layanan, agar website Customer tetap dapat
-                        diakses dengan baik.
+                        6. Mematuhi semua peraturan atau instruksi yang
+                        diberikan oleh Kiosweb.id setiap waktu yang berhubungan
+                        dengan penggunaan layanan, agar website Customer tetap
+                        dapat diakses dengan baik.
                       </p>
                       <p>
-                        Pada saat melakukan transfer Customer diharapkan mengisi
-                        nomor invoice di berita acara atau keterangan transfer.
+                        7. Pada saat melakukan transfer Customer diharapkan
+                        mengisi nomor invoice di berita acara atau keterangan
+                        transfer.
                       </p>
                       <p>
-                        Mengirimkan konfirmasi setelah melakukan pembayaran
+                        8. Mengirimkan konfirmasi setelah melakukan pembayaran
                         kepada pihak Kiosweb.id melalui SMS, WhatsApp atau
                         E-mail.
                       </p>
                       <p>
-                        Mengirimkan konfirmasi apablia dalam selang waktu 1 s/d
-                        3 hari pembayaran yang telah Anda lakukan belum kami
+                        9. Mengirimkan konfirmasi apablia dalam selang waktu 1
+                        s/d 3 hari pembayaran yang telah Anda lakukan belum kami
                         proses. Pembayaran yang tidak di isi nomor invoice pada
                         keterangan transfer dan tidak melakukan konfirmasi
                         pembayaran maka akan kami proses setelah kami
                         mendapatkan konfirmasi pembayaran.
                       </p>
                       <p>
-                        Apabila pembayaran tidak dilakukan konfirmasi sampai
+                        10. Apabila pembayaran tidak dilakukan konfirmasi sampai
                         periode akuntansi 1 bulan selesai, maka pembayaran
                         tersebut akan kami anggap sebagai pendapatan dan akan
                         kami laporkan untuk keperluan perpajakan (Pajak
@@ -162,27 +215,26 @@ const TermsArea = () => {
                         konfirmasi pembayaran disertai dengan data yang valid.
                       </p>
                       <p>
-                        Bertanggung jawab untuk memperoleh dengan biaya sendiri,
-                        semua lisensi, ijin-ijin, persetujuan, dan hak milik
-                        intelektual atau hak-hak lainnya yang mungkin diperlukan
-                        untuk menggunakan Layanan tersebut.
+                        11. Bertanggung jawab untuk memperoleh dengan biaya
+                        sendiri, semua lisensi, ijin-ijin, persetujuan, dan hak
+                        milik intelektual atau hak-hak lainnya yang mungkin
+                        diperlukan untuk menggunakan Layanan tersebut.
                       </p>
                       <p>
-                        Support tidak berlaku jika Meminta untuk memodifikasi /
-                        custom template seperti mengubah tampilan atau menambah
-                        fitur pada website. Template sudah dimodifikasi sendiri
-                        dengan mengubah kode pada template.
+                        12. Support tidak berlaku jika Meminta untuk
+                        memodifikasi / custom template yang sudah dimodifikasi
+                        sendiri dengan mengubah kode pada template.
                       </p>
                       <p>
-                        Semua item / layanan yang sudah dibayar tidak bisa
+                        13. Semua item / layanan yang sudah dibayar tidak bisa
                         dikembalikan untuk alasan apapun, silahkan pelajari
                         setiap fitur yang ditawarkan terlebih dahulu sebelum
                         membeli. Terima kasih
                       </p>
                       <p>
-                        Mengerti bahwasannya layanan maupun website yang sudah
-                        dibeli tidak dapat dibatalkan dan dana tidak dapat di
-                        refund atau dikembalikan.
+                        14. Mengerti bahwasannya layanan maupun website yang
+                        sudah dibeli tidak dapat dibatalkan dan dana tidak dapat
+                        di refund atau dikembalikan.
                       </p>
                     </div>
                   </div>

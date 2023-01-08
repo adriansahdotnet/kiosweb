@@ -498,7 +498,7 @@ const ProductDetailsArea = () => {
                     <ul>
                       <li>
                         <a
-                          href="https://wa.me/6285293026542"
+                          href="https://wa.me/6285641249270"
                           className="m-btn m-btn-2"
                         >
                           WhatsApp

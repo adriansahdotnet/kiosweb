@@ -44,7 +44,7 @@ const ProductDetailsArea = () => {
                       <div className="product__proprietor-price">
                         <span className="d-flex align-items-start">
                           <span>Rp </span>
-                          1.450.000
+                          1.500.000
                         </span>
                       </div>
                     </div>
@@ -105,7 +105,7 @@ const ProductDetailsArea = () => {
                                 <tr>
                                   <th scope="row">1</th>
                                   <td>Web TopUp Games - CGames</td>
-                                  <td>Rp. 1.450.000</td>
+                                  <td>Rp. 1.500.000</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -458,7 +458,7 @@ const ProductDetailsArea = () => {
                     <ul>
                       <li>
                         <a
-                          href="https://wa.me/6285293026542"
+                          href="https://wa.me/6285641249270"
                           className="m-btn m-btn-2"
                         >
                           WhatsApp

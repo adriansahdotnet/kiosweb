@@ -366,10 +366,10 @@ const ProductDetailsArea = () => {
                             <ul>
                               <li>
                                 <a
-                                  href="https://t.me/cs_kiosweb"
+                                  href="https://wa.me/6285641249270"
                                   className="m-btn m-btn-2"
                                 >
-                                  Telegram
+                                  WhatsApp
                                 </a>
                               </li>
                             </ul>

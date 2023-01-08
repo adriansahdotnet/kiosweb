@@ -20,7 +20,7 @@ const ProductPopuler = () => {
       title: "Web Topup Games - CGames",
       title_pop: "Web Topup Games - CGames",
       category: "Web Topup",
-      price: "1.485.000",
+      price: "1.500.000",
     },
     {
       id: "3",
