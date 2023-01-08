@@ -39,7 +39,7 @@ const ContactArea = () => {
                   width="24"
                   height="24"
                   fill="currentColor"
-                  class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2"
+                  className="bi bi-exclamation-triangle-fill flex-shrink-0 me-2"
                   viewBox="0 0 16 16"
                   role="img"
                   aria-label="Warning:"
