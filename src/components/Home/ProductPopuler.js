@@ -15,6 +15,16 @@ const ProductPopuler = () => {
     {
       id: "2",
       img: "assets/img/product/cgames.png",
+      link: "/cgames-v2",
+      demo: "https://cgames.kiosweb.id",
+      title: "Web Topup Games - CGames",
+      title_pop: "Web Topup Games - CGames",
+      category: "Web Topup",
+      price: "2.000.000",
+    },
+    {
+      id: "3",
+      img: "assets/img/product/cgames.png",
       link: "/cgames",
       demo: "https://demo.kiosweb.id/cgames",
       title: "Web Topup Games - CGames",
@@ -23,7 +33,7 @@ const ProductPopuler = () => {
       price: "1.500.000",
     },
     {
-      id: "3",
+      id: "4",
       img: "assets/img/product/qgames.png",
       link: "/qgames",
       demo: "https://demo.kiosweb.id/qgames",
