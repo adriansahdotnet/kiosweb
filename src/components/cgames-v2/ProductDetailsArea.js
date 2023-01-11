@@ -249,7 +249,11 @@ const ProductDetailsArea = () => {
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
-                            Level User (Super Admin, Admin, Member)
+                            Level Admin (Super Admin dan Admin)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Level User (Member, VIP, dan Reseller)
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
@@ -358,6 +362,10 @@ const ProductDetailsArea = () => {
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
+                            Konfigurasi Pop Up (Data, Tambah, Hapus)
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
                             Konfigurasi DigiFlazz
                           </li>
                           <li>
@@ -375,6 +383,10 @@ const ProductDetailsArea = () => {
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
                             Kelola Cekmutasi.co.id
+                          </li>
+                          <li>
+                            <i className="fad fa-check-circle text-primary me-2"></i>
+                            Kelola WhatsApp Gateway (Fonnte)
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
