@@ -337,7 +337,7 @@ const ProductDetailsArea = () => {
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
-                            Cekmutasi Otomatis (BRI, BCA, BNI, Mandiri, Paypal)
+                            Cekmutasi Otomatis (BCA, BNI, Mandiri, Paypal)
                           </li>
                         </ul>
                       </Accordion.Body>
