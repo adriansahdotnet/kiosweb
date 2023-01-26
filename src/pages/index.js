@@ -19,7 +19,6 @@ export default function Home() {
       <Header />
       <HeroArea />
       <Products />
-      <CategoryArea />
       <Subscribe />
       <Keuntungan />
       <Testimonial />

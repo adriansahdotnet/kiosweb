@@ -14,44 +14,36 @@ const Keuntungan = () => {
               </h2>
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
+                  <Accordion.Header>Tahap 1</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Kamu akan berdikusi dengan CS kami mengenai produk yang akan
+                    dibeli. dan CS akan merekomendasikan Produk yang sesuai
+                    dengan bisnis kamu
                   </Accordion.Body>
                 </Accordion.Item>
                 <br></br>
                 <Accordion.Item eventKey="1">
-                  <Accordion.Header>Accordion Item #2</Accordion.Header>
+                  <Accordion.Header>Tahap 2</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Jika sudah Deal, kamu akan di arahkan untuk melakukan
+                    transaksi.
                   </Accordion.Body>
                 </Accordion.Item>
                 <br></br>
                 <Accordion.Item eventKey="2">
-                  <Accordion.Header>Accordion Item #3</Accordion.Header>
+                  <Accordion.Header>Tahap 3</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Jika sudah mengirimkan bukti transaksi, CS akan mengirimkan
+                    Formulir yang harus kamu isi.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <br></br>
+                <Accordion.Item eventKey="3">
+                  <Accordion.Header>Tahap 4</Accordion.Header>
+                  <Accordion.Body>
+                    Kami akan membuat Grup Whatapp yang berisikan kamu, CS, dan
+                    teknisi. di grup ini kamu akan diberitahu progres pembuatan
+                    website, diskusi soal firur dll.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
