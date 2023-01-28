@@ -289,7 +289,7 @@ const ProductDetailsArea = () => {
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
-                            Validasi ID Games (Support 19 Games)
+                            Validasi ID Games (Support 25 Games)
                           </li>
                           <li>
                             <i className="fad fa-check-circle text-primary me-2"></i>
