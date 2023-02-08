@@ -7,7 +7,7 @@ const SEO = ({ pageTitle, font }) => (
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="description"
-        content="Jasa pembuatan website No. #1 Brebes."
+        content="Jasa pembuatan website Top Up Games No. #1 Indonesia."
       />
       <link rel="canonical" href="https://kiosweb.id/" />
       <meta property="og:locale" content="id_ID" />

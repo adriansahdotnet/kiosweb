@@ -15,7 +15,7 @@ import Keuntungan from "../components/Home/Keuntungan";
 export default function Home() {
   return (
     <>
-      <SEO pageTitle={"Jasa Website Brebes"} />
+      <SEO pageTitle={"Jasa Pembuatan Website TopUp Games N0. #1 Indonesia."} />
       <Header />
       <HeroArea />
       <Products />
