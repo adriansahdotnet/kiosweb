@@ -43,7 +43,7 @@ const HeroArea = () => {
               <div className="hero__content">
                 <h2 className="hero__title">
                   Kiosweb.id <br />
-                  <span>Jasa pembuatan website No #1.</span>
+                  <span>Jasa pembuatan website Top Up Games No #1.</span>
                 </h2>
                 <p>{`Tingkatkan peluang bisnismu dengan Kiosweb.id`}</p>
                 <Link href={"/product"}>
