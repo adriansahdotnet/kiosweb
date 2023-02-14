@@ -4,21 +4,21 @@ import Link from "next/link";
 const ProductPopuler = () => {
   const productPopulerData = [
     {
-      id: "1",
-      img: "assets/img/product/oura.png",
-      link: "/ourastore",
-      demo: "https://demo.kiosweb.id/ourastore",
-      title: "Web TopUp Games - Oura Store",
-      category: "Web Topup",
-      price: "2.000.000",
-    },
-    {
       id: "2",
       img: "assets/img/product/cgames.png",
       link: "/cgames-v2",
       demo: "https://cgames.kiosweb.id",
       title: "Web Topup Games - CGames V2",
       title_pop: "Web Topup Games - CGames V2",
+      category: "Web Topup",
+      price: "2.000.000",
+    },
+    {
+      id: "1",
+      img: "assets/img/product/oura.png",
+      link: "/ourastore",
+      demo: "https://demo.kiosweb.id/ourastore",
+      title: "Web TopUp Games - Oura Store",
       category: "Web Topup",
       price: "2.000.000",
     },
