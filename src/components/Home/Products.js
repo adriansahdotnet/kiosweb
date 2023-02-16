@@ -77,7 +77,7 @@ const Product = () => {
       <section className="product__area po-rel-z1 pb-115 mt-60">
         <div className="container">
           <div className="row">
-            <h3 className="mb-20 fw-bold text-center">Semua Produk</h3>
+            <h3 className="mb-20 fw-bold text-center">Pilih Tampilan</h3>
 
             <div className="container">
               <div className="row">

@@ -38,11 +38,11 @@ const Subscribe = () => {
                   data-wow-delay=".7s"
                 >
                   <button type="submit" className="m-btn m-btn-black">
-                    <span></span> <a href="https://t.me/kiosweb_tf">Disini</a>{" "}
+                    <span></span> <a href="https://t.me/kiosweb_tf">DISINI</a>{" "}
                   </button>
                   <p>
-                    Bergabung dengan 100+ pelaku bisnis yang menggunakan jasa
-                    kiosweb.
+                    Bergabung dengan 100+ pelaku bisnis TopUp yang menggunakan
+                    jasa kiosweb.
                   </p>
                 </div>
               </div>

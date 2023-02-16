@@ -3,23 +3,27 @@ import Link from "next/link";
 const categoryData = [
   {
     id: 1,
-    img: "assets/img/icon/catagory/cat-1.png",
-    title: "Topup Games",
+    img: "https://panel.vocagame.com/illustrations/Vector.svg",
+    title: "Sudah Teroptimisasi",
+    decs: "Website yang kami buat untukmu sudah dioptimisasi dengan baik!",
   },
   {
     id: 2,
-    img: "assets/img/icon/catagory/cat-2.png",
-    title: "Toko Online",
+    img: "https://panel.vocagame.com/illustrations/videotime.svg",
+    title: "Hemat Waktu",
+    decs: "Proses cepat dan tidak memakan waktu, segera luncurkan layananmu sendiri!",
   },
   {
     id: 3,
-    img: "assets/img/icon/catagory/cat-3.png",
-    title: "Landing Page",
+    img: "https://panel.vocagame.com/illustrations/moneytick.svg",
+    title: "Hemat Anggaran",
+    decs: "Membuat layanan topup dari nol akan memakan anggaran yang banyak, bersama kami menjadi hemat!",
   },
   {
     id: 4,
-    img: "assets/img/icon/catagory/cat-4.png",
-    title: "Blog Pribadi",
+    img: "https://panel.vocagame.com/illustrations/caption.svg",
+    title: "Profesional Website",
+    decs: "Website yang profesional membuat customer anda nyaman dan senang!",
   },
 ];
 
@@ -30,12 +34,12 @@ const CategoryArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">
-              <div className="section__title-wrapper text-center mb-60">
-                <h2 className="section__title">
-                  Kami
-                  <br /> Melayani Pembuatan
-                </h2>
-              </div>
+              <h4 className="mb-20 fw-bold text-center">
+                Alasan membangun website bersama kami
+              </h4>
+              <h2 className="mb-50 fw-bold text-center">
+                Website Hemat, Professional & Tepat
+              </h2>
             </div>
           </div>
           <div className="row">
@@ -60,10 +64,9 @@ const CategoryArea = () => {
                           <a>{category.title}</a>
                         </Link>
                       </h3>
-                      <Link href="/product">
+                      <Link href="#">
                         <a className="link-btn">
-                          <i className="far fa-long-arrow-right"></i>
-                          Learn More
+                          <a>{category.decs}</a>
                         </a>
                       </Link>
                     </div>
@@ -71,18 +74,6 @@ const CategoryArea = () => {
                 </div>
               );
             })}
-          </div>
-          <div className="row">
-            <div className="col-xxl-12">
-              <div className="category__more mt-30 text-center">
-                <Link href="/product">
-                  <a className="m-btn m-btn-2">
-                    {" "}
-                    <span></span> Lihat Semua Kategori
-                  </a>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </section>

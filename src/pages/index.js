@@ -18,11 +18,9 @@ export default function Home() {
       <SEO pageTitle={"Jasa Pembuatan Website TopUp Games N0. #1 Indonesia."} />
       <Header />
       <HeroArea />
-      <Products />
+      <CategoryArea />
       <Subscribe />
       <Keuntungan />
-      <Testimonial />
-      <BannerArea />
       <Footer />
       <script
         src="//code.tidio.co/wjukaw0fpccxkwgsmadrbzcrartqkal4.js"
