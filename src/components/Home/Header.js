@@ -76,9 +76,9 @@ const Header = () => {
               </div>
               <div className="col-xxl-3 col-xl-3 col-lg-2 col-md-8 col-6">
                 <div className="header__action d-flex align-items-center justify-content-end">
-                  <div class="header__btn d-none d-xl-block">
+                  <div className="header__btn d-none d-xl-block">
                     <a
-                      class="m-btn m-btn-2"
+                      className="m-btn m-btn-2"
                       href="https://api.whatsapp.com/send?phone=6285641249270&text=Halo%21%0ASaya%20ingin%20bertanya%20tentang%20pembuatan%20website"
                       target="_blank"
                     >

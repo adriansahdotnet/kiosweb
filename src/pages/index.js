@@ -21,7 +21,6 @@ export default function Home() {
       <Header />
       <HeroArea />
       <Services />
-      <LatestProduct />
       <Subscribe />
       <Footer />
       <script
