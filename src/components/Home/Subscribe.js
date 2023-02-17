@@ -37,7 +37,7 @@ const Subscribe = () => {
                   className="subscribe__form wow fadeInUp"
                   data-wow-delay=".7s"
                 >
-                  <button type="submit" className="m-btn m-btn-black">
+                  <button type="submit" className="m-btn m-btn-2">
                     <span></span> <a href="https://t.me/kiosweb_tf">DISINI</a>{" "}
                   </button>
                   <p>

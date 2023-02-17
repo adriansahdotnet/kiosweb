@@ -76,35 +76,15 @@ const Header = () => {
               </div>
               <div className="col-xxl-3 col-xl-3 col-lg-2 col-md-8 col-6">
                 <div className="header__action d-flex align-items-center justify-content-end">
-                  <div className="header__login d-none d-sm-block">
-                    {user?.email ? (
-                      <a
-                        onClick={logout}
-                        style={{ cursor: "pointer" }}
-                        className="d-flex align-items-center"
-                      >
-                        {" "}
-                        <i className="fal fa-sign-out-alt"></i> Logout
-                      </a>
-                    ) : (
-                      <Link href="https://api.kiosweb.id">
-                        <a>
-                          {" "}
-                          <i className="far fa-unlock"></i> Masuk
-                        </a>
-                      </Link>
-                    )}
+                  <div class="header__btn d-none d-xl-block">
+                    <a
+                      class="m-btn m-btn-2"
+                      href="https://api.whatsapp.com/send?phone=6285641249270&text=Halo%21%0ASaya%20ingin%20bertanya%20tentang%20pembuatan%20website"
+                      target="_blank"
+                    >
+                      Buat Website Sekarang
+                    </a>
                   </div>
-                  {!user && (
-                    <div className="m-btn m-btn-2 d-none d-xl-block">
-                      <Link href="/sign-up">Daftar</Link>
-                    </div>
-                  )}
-                  {user && (
-                    <div className="d-flex pr-2 align-items-center justify-content-end">
-                      <span className="me-2 fw-bold">{user.displayName} </span>
-                    </div>
-                  )}
                   <div
                     className="sidebar__menu d-lg-none ms-3"
                     onClick={handleShow}

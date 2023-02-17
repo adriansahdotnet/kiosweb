@@ -83,87 +83,81 @@ const Product = () => {
       <BgShape />
       {/* bg shape area end */}
 
-      {/* Produk Populer */}
-      <ProductPopuler />
-
-      <section className="product__area po-rel-z1 pb-115">
+      <section className="product__area grey-bg-16 pt-40 pb-110">
         <div className="container">
           <div className="row">
-            <h3 className="mb-20 fw-bold text-start">Semua Produk</h3>
+            <div className="col-xxl-12">
+              <div className="section__title-wrapper mb-50 text-center">
+                <h2 className="section__title">Pilih Tema Website</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            {currentProducts.map((item, index) => {
+              return (
+                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                  <div
+                    className="product__item-2 white-bg mb-30 fix wow fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    <div
+                      className={`product__thumb-2 ${item?.gradientColor} p-relative text-center fix`}
+                    >
+                      <img
+                        className="product-icon"
+                        src={"/" + item?.bg}
+                        alt=""
+                      />
+                      <div className="product__thumb-2-shape">
+                        <img
+                          src="assets/img/product/icon/product-circle.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div className="product__content-2 text-center">
+                      <div className="product__icon mb-20">
+                        <span>
+                          <img src={"/" + item?.logo} alt="" />
+                        </span>
+                      </div>
+                      <h3
+                        className="product__title-2"
+                        onClick={() => handleDetailsProduct(item.id)}
+                      >
+                        <Link href={item?.link}>
+                          <a>{item?.title}</a>
+                        </Link>
+                      </h3>
+                      <p>
+                        Posh super burke a blinding morish bits and bob nice one
+                        baking,
+                      </p>
 
-            <div className="container">
-              <div className="row">
-                <div className="d-flex justify-content-start col-12">
-                  <div className="col-12 d-flex">
-                    <div className="row">
-                      {currentProducts.map((item, index) => {
-                        return (
-                          <div
-                            key={index}
-                            className="col-xxl-4 col-xl-4 col-lg-4 col-md-4"
+                      <div className="product__btn mt-25">
+                        <a
+                          style={{ cursor: "pointer" }}
+                          href={item?.demo}
+                          className="m-btn m-btn-5"
+                        >
+                          {" "}
+                          <span></span> Coba Website{" "}
+                        </a>
+
+                        <Link href={item?.link}>
+                          <a
+                            onClick={() => handleDetailsProduct(item.id)}
+                            className="m-btn m-btn-border m-btn-border-6"
                           >
-                            <div
-                              className="product__item white-bg mb-30 wow fadeInUp"
-                              data-wow-delay=".3s"
-                            >
-                              <div className="product__thumb">
-                                <div className="product__thumb-inner fix w-img">
-                                  <Link href={item?.link}>
-                                    <a>
-                                      <img src={item?.img} alt="" />
-                                    </a>
-                                  </Link>
-                                </div>
-                                <div className="product__thumb-btn transition-3">
-                                  <a
-                                    style={{ cursor: "pointer" }}
-                                    href={item?.link}
-                                    className="m-btn m-btn-6 mb-15"
-                                  >
-                                    Detail Fitur
-                                  </a>
-
-                                  <a
-                                    rel="noreferrer"
-                                    href={item?.demo}
-                                    target="_blank"
-                                    className="m-btn m-btn-7"
-                                  >
-                                    Lihat Preview
-                                  </a>
-                                </div>
-                              </div>
-                              <div className="product__content">
-                                <div className="product__meta mb-10 d-flex justify-content-between align-items-center">
-                                  <div className="product__tag">
-                                    <a href="#">{item?.category}</a>
-                                  </div>
-                                  <div className="product__price">
-                                    <span>Rp {item?.price}</span>
-                                  </div>
-                                </div>
-                                <h3
-                                  onClick={() => handleProducDetails(item.id)}
-                                  className="product__title"
-                                >
-                                  <Link href={item?.link}>
-                                    <a>{item?.title}</a>
-                                  </Link>
-                                </h3>
-                                <p className="product__author">
-                                  by <a href="#">kiosweb</a> in{" "}
-                                  <a href="#">Jasa Web</a>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        );
-                      })}
+                            <span></span> Deskripsi{" "}
+                          </a>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>

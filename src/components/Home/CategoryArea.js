@@ -60,7 +60,7 @@ const CategoryArea = () => {
                     </div>
                     <div className="category__content">
                       <h3 className="category__title">
-                        <Link href="/product">
+                        <Link href="#">
                           <a>{category.title}</a>
                         </Link>
                       </h3>
