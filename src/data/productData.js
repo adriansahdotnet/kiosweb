@@ -5,7 +5,7 @@ const productData = [
     bg: "assets/img/product/icon/cgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
     link: "/cgames-v2",
-    demo: "https://demo.kiosweb.id/cgames",
+    demo: "https://cgames.kiosweb.id",
     title: "C Games V2",
     sub: "Website TopUp Games Otomatis",
     price: "2.000.000",
