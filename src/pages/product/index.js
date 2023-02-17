@@ -104,11 +104,11 @@ const Product = () => {
                     data-wow-delay=".3s"
                   >
                     <div
-                      className={`product__thumb-2 ${item?.gradientColor} p-relative text-center fix`}
+                      className={`product__thumb p-relative text-center fix`}
                     >
                       <img
                         className="product-icon"
-                        src={"/" + item?.bg}
+                        src={"/" + item?.img}
                         alt=""
                       />
                       <div className="product__thumb-2-shape">
@@ -132,10 +132,7 @@ const Product = () => {
                           <a>{item?.title}</a>
                         </Link>
                       </h3>
-                      <p>
-                        Posh super burke a blinding morish bits and bob nice one
-                        baking,
-                      </p>
+                      <p>{item?.sub}</p>
 
                       <div className="product__btn mt-25">
                         <a
