@@ -95,7 +95,10 @@ const Product = () => {
           <div className="row">
             {currentProducts.map((item, index) => {
               return (
-                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                <div
+                  key={index}
+                  className="col-xxl-4 col-xl-4 col-lg-4 col-md-6"
+                >
                   <div
                     className="product__item-2 white-bg mb-30 fix wow fadeInUp"
                     data-wow-delay=".3s"

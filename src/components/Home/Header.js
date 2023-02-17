@@ -80,7 +80,6 @@ const Header = () => {
                     <a
                       className="m-btn m-btn-2"
                       href="https://api.whatsapp.com/send?phone=6285641249270&text=Halo%21%0ASaya%20ingin%20bertanya%20tentang%20pembuatan%20website"
-                      target="_blank"
                     >
                       Buat Website Sekarang
                     </a>
