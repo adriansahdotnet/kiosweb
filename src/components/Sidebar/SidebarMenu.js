@@ -55,7 +55,7 @@ const SidebarMenu = ({ show, handleClose }) => {
                         <div className="single_link iconAdd">
                           <li>
                             <Link href="https://docs.kiosweb.id">
-                              <a>Docs</a>
+                              <a>Dokumentasi Penggunaan</a>
                             </Link>
                           </li>
                         </div>
@@ -71,26 +71,13 @@ const SidebarMenu = ({ show, handleClose }) => {
                     </nav>
                   </div>
 
-                  <div className="sidebar__action d-flex align-items-center">
-                    <div className="sidebar__login mt-15">
-                      {user?.email ? (
-                        <a
-                          onClick={logout}
-                          style={{ cursor: "pointer" }}
-                          className="d-flex align-items-center"
-                        >
-                          {" "}
-                          <i className="fal fa-sign-out-alt"></i> Log Out
-                        </a>
-                      ) : (
-                        <Link href="https://api.kiosweb.id">
-                          <a>
-                            {" "}
-                            <i className="far fa-unlock"></i> Masuk
-                          </a>
-                        </Link>
-                      )}
-                    </div>
+                  <div className="sidebar__action d-flex align-items-center mt-20">
+                    <a
+                      className="m-btn m-btn-2"
+                      href="https://api.whatsapp.com/send?phone=6285641249270&text=Halo%21%0ASaya%20ingin%20bertanya%20tentang%20pembuatan%20website"
+                    >
+                      Buat Sekarang
+                    </a>
                   </div>
                 </div>
               </div>
