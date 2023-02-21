@@ -121,7 +121,12 @@ const Product = () => {
                     <div className="product__content-2 text-center">
                       <div className="product__icon mb-20">
                         <span>
-                          <img src={"/" + item?.logo} alt="" />
+                          <img
+                            src="assets/img/logo/logobiru.png"
+                            width="35"
+                            alt=""
+                            className="rounded-circle"
+                          />
                         </span>
                       </div>
                       <h3
