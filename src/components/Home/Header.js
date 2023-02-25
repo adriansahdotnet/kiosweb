@@ -37,7 +37,7 @@ const Header = () => {
                   <Link href="/">
                     <a>
                       <img
-                        src="assets/img/logo/logo.png"
+                        src="assets/img/logo/logotu.png"
                         alt="logo"
                         width={"150px"}
                       />

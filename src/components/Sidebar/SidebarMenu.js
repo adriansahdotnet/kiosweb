@@ -24,7 +24,7 @@ const SidebarMenu = ({ show, handleClose }) => {
               <Link href="/home">
                 <a>
                   <img
-                    src="assets/img/logo/logo-white.png"
+                    src="assets/img/logo/logotri.png"
                     alt="logo"
                     width={"150px"}
                   />
