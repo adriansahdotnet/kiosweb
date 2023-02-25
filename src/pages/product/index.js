@@ -122,8 +122,8 @@ const Product = () => {
                       <div className="product__icon mb-20">
                         <span>
                           <img
-                            src="assets/img/logo/logobiru.png"
-                            width="35"
+                            src="assets/img/logo/kiosweb.png"
+                            width="50"
                             alt=""
                             className="rounded-circle"
                           />
