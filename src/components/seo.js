@@ -24,7 +24,7 @@ const SEO = ({ pageTitle, font }) => (
       <meta name="twitter:site" content="@ardhiyasa11" />
       <meta
         name="image"
-        content="https://kiosweb.id/assets/img/product/cgames.png"
+        content="https://www.kiosweb.id/assets/img/product/cgames.png"
       />
       <meta name="googlebot" content="index" />
 
