@@ -138,7 +138,7 @@ const ProductDetailsArea = () => {
                   </div>
                 </div>
 
-                {/* Table Sewa */}
+                {/* Table Sewa
                 <div className="row justify-content-center">
                   <div className="col-xxl-12 col-xl-12 col-lg-12">
                     <h3 className="mb-20 fw-bold text-start">Paket Sewa :</h3>
@@ -171,7 +171,7 @@ const ProductDetailsArea = () => {
                       </tbody>
                     </Table>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="product__details-content">
                   <div className="product__tab mb-40">

@@ -40,7 +40,7 @@ const productData = [
     link: "/ourastore",
     demo: "https://demo.kiosweb.id/ourastore",
     title: "Oura Store",
-    sub: "Website TopUp Game Otomatis",
+    sub: "Under Update",
     price: "2.000.000",
   },
   {
