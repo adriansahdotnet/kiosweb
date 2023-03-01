@@ -100,7 +100,7 @@ const ProductDetailsArea = () => {
                               <tbody>
                                 <tr>
                                   <th scope="row">1</th>
-                                  <td>Web TopUp Games - Games K'</td>
+                                  <td>Web TopUp Games - Games K</td>
                                   <td>Rp. 2.000.000</td>
                                 </tr>
                               </tbody>
