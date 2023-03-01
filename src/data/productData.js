@@ -1,5 +1,16 @@
 const productData = [
   {
+    id: "8",
+    img: "assets/img/product/gamesk.png",
+    bg: "assets/img/product/icon/gamesk.png",
+    logo: "assets/img/product/p-logo/gamesk.png",
+    link: "/gamesk",
+    demo: "https://gamesk.kiosweb.id",
+    title: "Games K'",
+    sub: "Website TopUp Games Otomatis",
+    price: "2.000.000",
+  },
+  {
     id: "1",
     img: "assets/img/product/cgames.png",
     bg: "assets/img/product/icon/cgames.png",
