@@ -1,6 +1,6 @@
 const productData = [
   {
-    id: "8",
+    id: "1",
     img: "assets/img/product/gamesk.png",
     bg: "assets/img/product/icon/gamesk.png",
     logo: "assets/img/product/p-logo/gamesk.png",
@@ -11,7 +11,7 @@ const productData = [
     price: "2.000.000",
   },
   {
-    id: "1",
+    id: "2",
     img: "assets/img/product/cgames.png",
     bg: "assets/img/product/icon/cgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -22,7 +22,7 @@ const productData = [
     price: "2.000.000",
   },
   {
-    id: "2",
+    id: "3",
     img: "assets/img/product/qgames.png",
     bg: "assets/img/product/icon/qgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -33,7 +33,7 @@ const productData = [
     price: "1.250.000",
   },
   {
-    id: "3",
+    id: "4",
     img: "assets/img/product/cgames.png",
     bg: "assets/img/product/icon/cgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -44,7 +44,7 @@ const productData = [
     price: "1.500.000",
   },
   {
-    id: "4",
+    id: "5",
     img: "assets/img/product/oura.png",
     bg: "assets/img/product/icon/oura.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -55,7 +55,7 @@ const productData = [
     price: "2.000.000",
   },
   {
-    id: "5",
+    id: "6",
     img: "assets/img/product/cgames-manual.png",
     bg: "assets/img/product/icon/manual.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -66,7 +66,7 @@ const productData = [
     price: "750.000",
   },
   {
-    id: "6",
+    id: "7",
     img: "assets/img/product/rgames.png",
     bg: "assets/img/product/icon/rgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -77,7 +77,7 @@ const productData = [
     price: "550.000",
   },
   {
-    id: "7",
+    id: "8",
     img: "assets/img/product/flash-media.png",
     bg: "assets/img/product/icon/flash.png",
     logo: "assets/img/product/p-logo/qgames.png",
