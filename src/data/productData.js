@@ -55,17 +55,6 @@ const productData = [
     price: "2.000.000",
   },
   {
-    id: "6",
-    img: "assets/img/product/cgames-manual.png",
-    bg: "assets/img/product/icon/manual.png",
-    logo: "assets/img/product/p-logo/qgames.png",
-    link: "/cgames-manual",
-    demo: "https://demo.kiosweb.id/cgames-manual",
-    title: "Web TopUp dan Joki",
-    sub: "Website TopUp Game Manual",
-    price: "750.000",
-  },
-  {
     id: "7",
     img: "assets/img/product/rgames.png",
     bg: "assets/img/product/icon/rgames.png",
