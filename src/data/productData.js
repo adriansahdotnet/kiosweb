@@ -1,6 +1,17 @@
 const productData = [
   {
     id: "1",
+    img: "assets/img/product/orion.png",
+    bg: "assets/img/product/icon/orion.png",
+    logo: "assets/img/product/p-logo/orion.png",
+    link: "/orion",
+    demo: "https://orion.kiosweb.id",
+    title: "Orion Games",
+    sub: "Website TopUp Games Otomatis",
+    price: "2.000.000",
+  },
+  {
+    id: "2",
     img: "assets/img/product/gamesk.png",
     bg: "assets/img/product/icon/gamesk.png",
     logo: "assets/img/product/p-logo/gamesk.png",
@@ -11,7 +22,7 @@ const productData = [
     price: "2.000.000",
   },
   {
-    id: "2",
+    id: "3",
     img: "assets/img/product/cgames.png",
     bg: "assets/img/product/icon/cgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -22,7 +33,7 @@ const productData = [
     price: "2.000.000",
   },
   {
-    id: "3",
+    id: "4",
     img: "assets/img/product/qgames.png",
     bg: "assets/img/product/icon/qgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -33,7 +44,7 @@ const productData = [
     price: "1.250.000",
   },
   {
-    id: "4",
+    id: "5",
     img: "assets/img/product/cgames.png",
     bg: "assets/img/product/icon/cgames.png",
     logo: "assets/img/product/p-logo/qgames.png",
@@ -44,7 +55,7 @@ const productData = [
     price: "1.500.000",
   },
   {
-    id: "5",
+    id: "6",
     img: "assets/img/product/oura.png",
     bg: "assets/img/product/icon/oura.png",
     logo: "assets/img/product/p-logo/qgames.png",
