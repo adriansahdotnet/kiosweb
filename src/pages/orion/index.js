@@ -9,7 +9,7 @@ import SEO from "../../components/seo";
 const orion = () => {
   return (
     <>
-      <SEO pageTitle={"Q Games"} />
+      <SEO pageTitle={"Orion Games"} />
       <Header />
       <BgShape />
       <ProductTitle />
